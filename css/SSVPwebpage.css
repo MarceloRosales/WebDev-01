@@ -1,0 +1,369 @@
+* {
+  box-sizing: border-box; /*Good for tables, give absolute withd no matter what!*/
+}
+
+#spacer-Nav-Content {
+margin-top: 0px;
+background-color: #008555;
+height: 20px
+}
+.main-container{
+margin: 0px 0px 0px 0px;
+}
+
+/*
+.Marcelo-side-menu div:hover {
+  background-color: #00a469;
+}
+*/
+
+#carouselExampleIndicators {
+  margin-top: auto;
+  margin: auto;
+}
+
+.carousel-caption{
+  font-family: verdana;
+  width: auto;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+p.j-text {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+#Learn-more-btn {
+  background-color: #008555;
+  border: none;
+}
+
+
+
+
+/* The use of grid-template-areas*/
+.Wrapper1 {
+  margin: 5px;
+}
+.header {
+  grid-area: hd;
+}
+.footer {
+  grid-area: ft;
+}
+.content {
+  grid-area: main;
+}
+.sidebar {
+  grid-area: sd;
+}
+.grid1 > div {
+  border: 2px  solid rgba(0, 133, 85, 0.90);
+  border-radius: 5px;
+  background-color: rgba(0, 133, 85, 0.79);
+  padding: 1em;
+  color: #fff;/*text color*/
+}
+.grid1 .content {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
+.grid1  {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  grid-template-areas:
+  "hd"
+  "sd"
+  "main"
+  "ft"
+ /* This setting is for mobile screensize*/
+}
+
+/* The next part is send to the bottom of the
+page, This setting is for bigger screen setups,
+if you want to make any changes  in the css styles
+for small (mobile) screens should be made after the @media.
+@media (min-width: 640px) {
+  .grid1{
+    grid-template-columns: 1fr 4fr; Here we are indicating the existence of only 2 colummns
+    grid-template-areas:
+    "hd hd   hd   hd   hd" There is no need of so many
+    "sd main main main main"
+    "sd main main main main"
+  }
+*/
+
+.sidebarmenuitem {
+  background-color: none;
+  padding:0px;
+  margin-top:0px;
+  margin-bottom:0px;
+  text-align:left;
+}
+
+.sidebarmenuitem a {
+text-decoration: none;
+color: white;
+}
+
+.sidebarmenuitem ul li {
+list-style-type: none;
+text-align: left;
+}
+
+.navbar-toggler {
+  background-color: rgba(#008555, 0.67);
+}
+
+
+
+#visa-outline{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+/*
+/* Start For youtube videos and Goole maps */
+.videoWrapper {  /* For youtube videos */
+	position: relative;
+	padding-bottom: 50%; /* 16:9 change here for the height of the video 80%:45%= 16:9*/
+	padding-top: 25px;
+  display: block;
+  margin-left: auto;/* These to I added to center the map tokyo Niigata train schedule */
+  margin-right: auto;
+  width: 100%;
+	height: ;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/*.videoWrapper2{
+  height: 60vh;
+}
+/* End For youtube videos and google maps*/
+
+#page-top {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);
+    -webkit-text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);
+    -moz-text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);
+    z-index: 6;
+    text-align: center;
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -o-transition: 1.5s;
+    transition: 1.5s;
+    animation: fadeIn 8s ease-in-out 0s 1 normal;
+    -webkit-animation: fadeIn 8s ease-in-out 0s 1 normal;
+    background-image: (img/NiigataUicon.png);
+    background-color: none;
+    background-repeat: no-repeat;
+    background-position: 38px 10px;
+    width: 120px;
+    height: 100px;
+}
+
+/* Start the image gallery*/
+.boxes {
+  padding: .5vw;
+  flex-flow: row wrap;
+  display: flex;
+}
+
+.box {
+  margin: .5vw;
+  border: 1px solid #e2e2e2;
+  padding: .5vw;
+  flex: 1 0 auto;
+  width: 300px;
+
+}
+.box img {
+  width: 100%;
+  height: auto;
+}
+/* End the image gallery*/
+
+
+/*Layour columns Start*/
+#Layout-columns {
+  position:;
+  z-index: -1;
+}
+/*Layour columns End*/
+
+
+/* minmax() in auto-fill repeating tracks Start https://gridbyexample.com/examples/example28/*/
+.wrapper-02 {
+		display: grid;
+    grid-gap: 5px;
+		grid-template-columns: repeat(auto-fill, minmax( 450px,1fr) ) ;
+		background-color: #fff;
+		color: #444;
+    border-width: black;
+    border-color: #444;
+    margin-left: 0px;
+    margin-right: 0px;
+	}
+	.box-01 {
+		background-color: #e8e8e8;
+		color: #444;
+		border-radius: 5px;
+		padding: 0px;
+    margin-left: 0px;
+		font-size: ;
+    text-align: center;
+    width: auto;
+	}
+  .box-01 img {
+    width: 100%;
+    height: 90%;
+    margin-right: 0px;
+  }
+  /*minmax() in auto-fill repeating tracks End https://gridbyexample.com/examples/example28/ */
+
+
+/*(Table CSS Start https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro */
+  table {
+      font-family: inherit;
+      border-collapse: collapse;
+      width: 100%;
+  }
+
+  td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 5px;
+  }
+
+  tr:nth-child(even) {
+      background-color: #dddddd;
+  }
+/*(Table CSS Ends https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro */
+
+
+#footer_logo {
+height: 125px;
+background-color: #008555;
+padding-top: 25px;
+text-align: center;
+text-decoration: none;
+text-decoration-color: white;
+}
+
+#Copy-right{
+color: white;
+}
+
+div.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  /*padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;*/
+}
+
+.dropdown-menu {
+  background-color: #008555;
+}
+.dropdown-menu a {
+  text-decoration: none;
+  color: white;
+}
+.dropdown-item a {
+  background-color: #008555;
+  text-decoration: none;
+}
+
+.demo-collapse ul a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+@media (min-width: 640px) {
+  .grid1{ /*This setting is for bigger screen setups*/
+    grid-template-columns: 1fr 4fr;/* Here we are indicating the existence of only 2 colummns*/
+    grid-template-areas:
+    "hd hd   hd   hd   hd" /* There is no need of so many*/
+    "sd main main main main"
+    ".  main main main main"
+  }
+  .sidebarmenuitem {
+    background-color: none;
+    padding:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    text-align:left;
+  }
+  .sidebarmenuitem ul li {
+  list-style-type: none;
+  text-align: left;
+
+  }
+  .sidebarmenuitem li {
+    text-decoration: none;
+  list-style-type: none;
+  text-align: left;
+
+  }
+
+
+  div.sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    /*padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;*/
+  }
+
+.dropdown-menu {
+  background-color: #008555;
+  text-decoration: none;
+}
+
+.dropdown-item a {
+  background-color: #008555;
+  text-decoration: none;
+}
+
+
+
+
+#collapse-nav{/*to make toggle-nav side menu disapear in big screens*/
+  display: none;
+}/*there is only one example*/
+
+#Toggle-side-menu{/*to display side menu and disapear the Toggle-button or toggle-nav*/
+  display: block;
+}
+
+#Toggle-button{/*to make Toggle-button side menu disapear in big screens*/
+  display: none;
+}
+
+.Marcelo-side-menu{
+  display: block;
+}
+.Marcelo-side-toggle-button{
+  display: none;
+}

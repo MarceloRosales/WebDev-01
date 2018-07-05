@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box; /*Good for tables, give absolute withd no matter what!*/
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menuitem {
+  background-color:#e3f421;
+  padding:8px;
+  margin-top:7px;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:#141ce6;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+hr {
+  height:6px;
+  border:none;
+  color:#333;/*color of the border but it is not shown cause border=none*/
+  background-color:#ff0000;
+}
+#container-01 {
+  border-width: 6px;
+  border-color: rgb(217, 22, 65);
+  border-style: dashed; /*The default value of border-style is none. You need to set a different value for a border to appear.*/
+  background-color: #b4b4b4;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color:rgba(171, 0, 251, 0.77);
+  line-height: normal,90%;
+}
+
+#example1 {
+    box-sizing: content-box;
+    width: 300px;
+    height: 100px;
+    padding: 30px;
+    border: 10px solid blue;
+    font-family: impact;
+}
+
+#example2 {
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    padding: 30px;
+    border: 10px solid blue;
+}
+
+
+/* The use of grid-template-areas*/
+.Wrapper1 {
+      margin: 20px;
+    }
+
+    .header {
+      grid-area: hd;
+    }
+    .footer {
+      grid-area: ft;
+    }
+    .content {
+      grid-area: main;
+    }
+    .sidebar {
+      grid-area: sd;
+    }
+
+    .grid1 > div {
+      border: 2px solid #ffa94d;
+        border-radius: 5px;
+        background-color: #ffd8a8;
+        padding: 1em;
+        color: #d9480f;
+    }
+
+    .grid1  {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 5px;
+      grid-template-areas:
+      "hd"
+      "sd"
+      "main"
+      "ft" /* This setting is for mobile screensize*/
+    }
+    @media (min-width: 640px) {
+      .grid1{
+        grid-template-columns: 1fr 4fr;/* Here we are indicating the existence of only 2 colummns*/
+        grid-template-areas:
+        "hd hd   hd   hd   hd" /* There is no need of so many*/
+        "sd main main main main"
+        "sd main main main main"
+        ".  ft   ft   ft   ft"} /*This setting is for bigger screen setups*/
+}
+    .wrapper2 {
+      display: grid;
+      grid-template-columns: 2fr 4fr;
+      grid-gap: 10px;
+      background-color: #fff;
+      color: #444;
+    }
+
+    .box {
+      background-color: #444;
+      color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      font-size: 150%;
+    }
+
+
+    @media (min-width: 640px) {
+      .grid1{
+        grid-template-columns: 2fr 4fr;
+      }
+    }
+
+
+
+
+
+
+    
+    .media {
+        border: 2px solid #f76707;
+        border-radius: 5px;
+        background-color: #fff4e6;
+    }
+    .media {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-template-areas: "img content";
+        margin-bottom: 1em;
+    }
+
+    .media .image {
+        grid-area: img;
+        background-color: #ffd8a8;
+    }
+
+    .media .text {
+        grid-area: content;
+        padding: 10px;
+
+    }
