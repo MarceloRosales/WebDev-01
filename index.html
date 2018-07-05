@@ -1,0 +1,1788 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link href="img/NiigataUicon.png" rel="shortcut icon" type="image/x-icon"> <!--Mini icon for the browser's tab-->
+    <title>新大歯学留学生SSVP</title> <!--Title of the browser tab-->
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css"><!--Loded from local file (downloaded from boostrap webpage)-->
+
+    <link rel="stylesheet" href="css/SSVPwebpage.css"> <!--Customized CSS file created for my page's body. (made by me for this website) -->
+
+</head>
+
+<body>
+
+<navegation-bar>
+  <div class="nav-container" id="Top">
+
+  <!-- Navigation Bar Starts (**Important!! place jQuery first, then Popper.js, then Bootstrap JS at the end of page, These scripts are nesseary for the dropdown-menu to work properly )-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <!-- Navbar Brand Start -->
+          <nav class="navbar">
+            <a class="navbar-brand" id="Navbar-brand" href="https://www.niigata-u.ac.jp/en/" target="_blank">
+              <img src="img/logo-english.svg" width="250" height="50" alt="">
+            </a>
+          </nav>
+          <!-- Navbar Brand End -->
+
+  <!-- Navbar Toggle button Start -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Navbar Toggle button Ends -->
+
+  <!-- Navbar Menu Start -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+            <li class="nav-item"> <!-- Here if insert the class="ACTIVE" indicates that the nav will higliht or show that we are in the selected page, in dis case home. It should be the only "active" nav item for each correspondig page.-->
+              <a class="nav-link" href="index.html#Program-Overview">About SSVP<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#Program-Overview">Program Overview</a><!-- Navbar Menu link jump to a specific part or section of a page (1st. div section needs an id, then in href place the name of the hmtl page and "#" with the idname of ths section, e.g.  href="index00-All.html#Greeting"-->
+            </li>
+      <!-- Dropdown nav items Start-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index.html#Pre-arrival-Logistics" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Pre-arrival Logistics
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="index.html#Pre-arrival">About the Visa</a>
+                <a class="dropdown-item" href="index.html#Travel-Insurance">Travel Insurance</a>
+                <a class="dropdown-item" href="index.html#Packing-advice">Packing advice</a>
+                <a class="dropdown-item" href="index.html#Wear-and-Dress">Wear & Dress code</a>
+                <a class="dropdown-item" href="index.html#Weather">Weather in Niigata</a>
+                <a class="dropdown-item" href="index.html#Miscellaneous">Miscellaneous</a>
+              </div>
+            </li>
+      <!-- Dropdown nav items End -->
+
+      <!-- Dropdown nav items Start-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index.html#Pre-arrival" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Arrival
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="index.html#Arrival">Commute</a>
+                <a class="dropdown-item" href="index.html#Tickets">Tickets and Passes</a>
+
+                <a class="dropdown-item" href="index.html#Highway-Buses">Highway Buses</a>
+                <a class="dropdown-item" href="index.html#Getting-to-Niigata">Getting to Niigata</a>
+                <a class="dropdown-item" href="index.html#Accommodations">Accommodations</a>
+              </div>
+            </li>
+      <!-- Dropdown nav items End -->
+
+      <!-- Dropdown nav items Start-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Orientation & Schedule
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="index.html#Orientation">Assigments</a>
+                <a class="dropdown-item" href="#">Report</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Schedules</a>
+              </div>
+            </li>
+      <!-- Dropdown nav items End -->
+
+      <!-- Dropdown nav items Start-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index.html#Pre-arrival-Logistics" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Places and activities
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="index.html#">link1</a>
+                <a class="dropdown-item" href="index.html#">link2</a>
+                <a class="dropdown-item" href="index.html#">link3</a>
+              </div>
+            </li>
+      <!-- Dropdown nav items End -->
+
+      <!-- Dropdown nav items Start-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index.html#Pre-arrival-Logistics" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Connect with Peers
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="index.html#">2016</a>
+                <a class="dropdown-item" href="index.html#">2017</a>
+                <a class="dropdown-item" href="index.html#">2018</a>
+              </div>
+            </li>
+      <!-- Dropdown nav items End -->
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="http://www.nuh.niigata-u.ac.jp/en_floormap.php" target="_blank">University Map </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="Contact01.html">Contact</a>
+            </li>
+            <!-- Dropdown nav items Start-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="index.html#Pre-arrival-Logistics" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       Example
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="index.html#">link1</a>
+                      <a class="dropdown-item" href="index.html#">link2</a>
+                      <a class="dropdown-item" href="index.html#">link3</a>
+                    </div>
+                  </li>
+            <!-- Dropdown nav items End -->
+
+          </ul>
+
+  <!-- Navbar Menu for lenguage starts -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">日本語
+                <img src="img/Flag-Japan.jpg" width="30" height="20" alt="">
+              </a>
+            </li>
+          </ul>
+          <!-- Navbar Menu for lenguage Ends -->
+
+  <!--Code for button intead of nemu
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-outline-success" id="Japanese-btn" type="submit">
+              Japanese</button>
+          </form>-->
+        </div>
+        <!-- Navbar Menu Ends -->
+        <br>
+      </nav>
+  <!--/#Navbar Bar Ends -->
+
+      <div class="container-fluid" id="spacer-Nav-Content"></div>
+  </div>
+</navegation-bar>
+
+  <!--#Content start-->
+
+<div class="main-container">
+
+<home>
+  <!--#carousel starts here-->
+  <carousel1>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="6000"> <!--To stop the carousel put false in data interval, to change speed put a number ex. 6000 wich is in miliseconds-->
+
+        <!--#Indicators of the nav -->
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+
+      <!--#Wrapper of the slides-->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/HomeSlider-Slide1-2.jpg" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">  <!--?# To hide elements depending on screen size see: https://getbootstrap.com/docs/4.0/utilities/display/-->
+               <h5>Experice Niigata University</h5>
+               <p>Some coment here</p>
+               </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/HomeSlider-Slide4.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/HomeSlider-Slide5.jpg" alt="Third slide">
+          </div>
+        </div>
+
+      <!--#Controls or next and prev buttons -->
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+  </carousel1>
+
+  <!--#jumbotron Starts -->
+
+    <div class="jumbotron">
+
+      <h1 class="display-4">Niigata University Short Stay Visit Program for international students.
+        </h1>
+      <br>
+      <br>
+      <p class="j-text">
+      The Niigata University Short Stay Visit Program (SSVP) invites students from Niigata University's partner institutions to experience not only the academic environment at the dental faculty, but also a variety of cultural and social events that help students feel welcome on our campus.
+      <br>
+      <br>
+      SSVP students stay at the university's residential facilities or in accommodations near to the campus and will able to take seminar-classes alongside other international students and participate in a variety of extracurricular programs and events that are open to the community.
+      <br>
+      <br>
+      We are eager to learn about the unique insights visiting students bring from their universities, and we are happy to incorporate them in our academic community.
+      <br>
+      <br>
+      </p>
+      <p><h2>Welcome to Niigata University! </h2></p>
+
+  <!-- Video start here -->
+          <div class="videoWrapper" id="videoWrapper">
+          Copy & Pasted from YouTube
+          <iframe id="Uni-intro-vid" width="560" height="315" src="https://www.youtube.com/embed/0MPy_cJlX5M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+  <!-- Video ends here IMPORTANT: Videos need to be reloaded to see the changes, CLOSE THE TAB AND RELOAD PAGE to see changes!! -->
+
+    <!-- Video start here
+    This Video code is not as responsive.
+      <div class="embed-responsive embed-responsive-16by9 videoWrapper2">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0MPy_cJlX5M?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    Video ends here IMPORTANT: Videos need to be reloaded to see the changes, CLOSE THE TAB AND RELOAD PAGE to see changes!! -->
+
+      <br>
+
+      <h4>Experience the Japanese student life and apply to Niigata University's SSVP today!</h4>
+
+      <br>
+      <a id="Learn-more-btn" href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Learn more </a>
+
+    </div>
+
+
+  <hr style="height:1px;border:none;color:#333;background-color:#333;" />
+</home>
+
+<!--# Grid_Template_Areas -->
+<page1>
+    <div class="Wrapper1">
+      <div class="grid1">
+
+        <div class="header" id="Program-Overview"> <h1>Program Overview</h1></div>
+
+        <div class="sidebar">
+  <!-- Navbar Toggle button Start-->
+          <button class="navbar-toggler navbar-light Marcelo-side-toggle-button" id="" type="button" data-toggle="collapse" data-target="#Page1" aria-controls="Marcelo-side-menu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button><!-- the class="Marcelo-side-toggle-button" is for calling css display:none; in large screens-->
+          <!-- Navbar Toggle button Ends -->
+
+          <div class="collapse-nav collapse Marcelo-side-menu" id="Page1"> <!-- class="Marcelo-side-menu" is nesseary for css display in large screens, id="Page1" is for the button to called an specific menu (cannot be a class)-->
+            <div class="sidebarmenuitem"><a href="index.html#Program-Overview">Admissions & Timeline</a></div>
+            <hr>
+            <div class="sidebarmenuitem"><a href="index.html#Pre-arrival">Pre-arrival Logistics</a></div>
+            <hr>
+            <div class="sidebarmenuitem"><a href="index.html#Arrival">Arrival</a></div>
+            <hr>
+            <div class="sidebarmenuitem"><a href="index.html">Orientation & Schedule</a></div>
+            <hr>
+            <div class="sidebarmenuitem"><a href="index.html">Places and activities</a></div>
+            <hr>
+            <div class="sidebarmenuitem"><a href="index.html">Connect with Peers</a></div>
+            <hr>
+            <div class="sidebarmenuitem"><a href="index.html#Top">Top</a></div>
+          </div>
+        </div>
+
+        <div class="content">
+          <h2 id="Admissions">Admissions & Timeline</h2>
+          <p>Students from Niigata Univesity's partner institutions planning to apply to SSVP should carefully review the admission material, which includes:</p>
+          <br>
+          <p><a href="#">Timelines</a></p>
+          <p>Application information.</p>
+          <br>
+
+          <h2>Pre-arrival Logistics</h2>
+          <p>This section includes important information that SSVP students should carefully review before coming to Niigata.</p>
+          <p>It includes critical information about health requirements, visas, packing advice, and more.</p>
+          <br>
+          <p>Learn More</p>
+          <br>
+
+          <h2>Arrival</h2>
+          <p>Read about all the ways in which the SSVP helps to facilitate a smooth arrival for students.</p>
+          <br>
+          <p>Learn More</p>
+          <br>
+
+          <h2>Orientation & Schedule</h2>
+          <p>Once SSVP students arrive on Niigata campus, they will participate in an informative orientation.</p>
+          <p>Learn more about the schedule and orientation.</p>
+          <br>
+          <p>Learn More</p>
+          <br>
+
+          <h2>Connect with Peers</h2>
+          <p>Excited to come to Niigita-Japan? but interested in speaking to past participants in order to best prepare? Follow the link below to get connected to a previous SSVP students, their advice and support will help make your experience even better.</p>
+          <br>
+          <p>Learn More</p>
+          <br>
+        </div>
+      </div>
+    </div>
+</page1>
+
+<!--# Grid_Template_Areas -->
+<page2>
+  <div class="Wrapper1">
+    <div class="grid1">
+
+      <div class="header" id="Pre-arrival"> <h1>Pre-arrival Logistics</h1></div>
+
+      <div class="sidebar">
+  <!-- Navbar Toggle button Start-->
+        <button class="navbar-toggler navbar-light Marcelo-side-toggle-button" id="" type="button" data-toggle="collapse" data-target="#Page2" aria-controls="Marcelo-side-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button><!-- the class="Marcelo-side-toggle-button" is for calling css display:none; in large screens-->
+        <!-- Navbar Toggle button Ends -->
+
+        <div class="collapse-nav collapse Marcelo-side-menu" id="Page2"> <!-- class="Marcelo-side-menu" is nesseary for css display in large screens, id="Page1" is for the button to called an specific menu (cannot be a class)-->
+          <div class="sidebarmenuitem"><a href="index.html#Pre-arrival">About the Visa</a></div>
+          <hr>
+          <div class="sidebarmenuitem"><a href="index.html#Travel-Insurance">Travel Insurance</a></div>
+          <hr>
+          <div class="sidebarmenuitem"><a href="index.html#Packing-advice">Packing advice</a></div>
+          <hr>
+          <div class="sidebarmenuitem"><a href="index.html#Wear-and-Dress">Wear & Dress code</a></div>
+          <hr>
+          <div class="sidebarmenuitem"><a href="index.html#Weather">Weather in Niigata</a></div>
+
+          <!-- Dropdown button End -->
+          <hr>
+          <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
+          <div class="nav btn-info" data-toggle="collapse" data-target="#demo-02" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;">Miscellaneous items &#x25BC;</div>
+            <div id="demo-02" class="collapse demo-collapse">
+              <ul style="text-decoration: none;">
+                <li><a href="index.html#internet">Internet, SIM & WiFi</a></li>
+                <li><a href="index.html#Travel-adapter">Travel adapter</a></li>
+                <li><a href="index.html#gifts">Gifts</a></li>
+                <li><a href="index.html#Travel-app">Travel apps</a></li>
+              </ul>
+            </div>
+          <!-- Dropdown button End -->
+
+          <hr>
+          <div class="sidebarmenuitem"><a href="index.html#Top">Top</a></div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div id="About-the-visa"><h2>About the Visa</h2></div>
+        <br>
+        <p>As of July 2017, Japan has taken measures concerning the Visa Exemption Arrangements with 68 countries and regions.</p>
+        <p>Nationals and citizens of those countries and regions shown in this <a href="http://www.mofa.go.jp/j_info/visit/visa/short/novisa.html" target="_blank"><b>list</b></a> are <b>not required</b> to obtain visas to enter Japan when their visits are tourism, commerce, conferences, visiting relatives/ acquaintances, etc. </p>
+        <p><b>Period of Stay: </b><br>
+          The period of stay granted at the time of the landing permission will be "15 days" for Brunei, Indonesia, and Thailand, and "30 days" for United Arab Emirates. For other countries and regions will be "90 days".</p>
+        <p>However, when foreign nationals engage in paid activities in Japan, or their periods of stay exceed those stipulated in each country's arrangement of short-term stay, visas will be required to enter Japan.</p>
+        <p><b>Visa procedure</b></p>
+        <p>Due to the complex nature of visa requirements, we advise you to contact the Consular Section of the Embassy or Consulate General of Japan nearest you for more information and advice.</p>
+        <p>For more information on the type of visa click <b><a href="http://www.mofa.go.jp/j_info/visit/visa/index.html#section3" target="_blank">here.</a></b></p>
+
+        <p>The chart below provides an outline of the procedure. For more information click <b><a href="http://www.mofa.go.jp/j_info/visit/visa/process/short.html" target="_blank">here.</a></b></p>
+
+        <img src="img/visa outline.jpg" id="visa-outline">
+        <br>
+        <br>
+        <p>For the "Schedule of stay" portion of the visa application to be submitted by Niigata University's SSVP office, dates of stay and accommodation address will be provided, however; if you plan to visit other places within Japan during your stay, please provide us with accurate information of the locations, dates and accommodation's address, we will include that information in the application.</p>
+        <br>
+
+  <hr>
+
+        <div id="Travel-Insurance"><h2>Travel Insurance</h2></div>
+        <br>
+        <p><b>Why you need travel insurance for Japan?</b></p>
+        <p>A travel insurance will cover medical care should you become sick or have an accident while in Japan. This is not because medical care is particularly expensive in Japan. Of course, if you need serious care, long-term hospitalization or surgery, the costs can add up quickly and having a good travel insurance policy can save you money.</p>
+        <p>We recommend buying travel insurance before you come to Japan. Be sure to get a policy that covers not only medical care, but also lost luggage, cancelled hotel and plane tickets, and damage or stolen gear (although theft in Japan is extremely rare, it does occasionally happen).</p>
+        <p>Alternatevily, it is possible to buy a travel insurance in Japan, however prices might be higher.</p>
+        <p>In case of any health emergency, Dr. Ishida will indicate the apporpriate medical venue and insurance procedure.</p>
+
+        <p><b>Proof of Insurance Required</b></p>
+        <p>The main reason to have a valid travel insurance while traveling in Japan is so that you can show your proof of insurance to the people at a clinic or hospital where you hope to receive care. Because Japan has a national health insurance system that covers almost all the residents of the country, they are leery of treating foreign patients who don't belong to this system. Sadly, there have been many instances of clinics and hospitals turning away foreign patients who needed care, even some with life-threatening conditions. Having proof of insurance is usually enough to overcome any reluctance on the part of the clinic or hospital to give care.</p>
+        <p><b>What to look for in a Travel Insurance Policy?</b></p>
+        <p>Before you buy a travel insurance, check the following:</p>
+        <ul>
+          <li>Valid in Japan: Obviously, the plan you purchase must be valid in Japan.</li>
+          <li>Cancellation coverage: Make sure that the policy will cover cancelled hotel reservations and plane tickets etc.</li>
+          <li>Full medical coverage and evacuation coverage: The plan should cover all potential medical expenses (less the deductible or excess), including ambulance transport, in- and outpatient care, hospitalization and, where necessary, evacuation back to your home country.</li>
+          <li>Lost, stolen or damaged gear or luggage: Make sure the plan you intend to buy covers these things. As you can imagine, theft is rare in Japan, but it does happen. Like anywhere else, things can be easily lost or damaged. This is especially important if you're traveling with things like computers and expensive cameras.</li>
+          <li>Dangerous activity coverage or exclusion: If you plan to do some skiing, rock climbing, mountain climbing, trekking, scuba diving or the like while in Japan, make sure the plan you intend to purchase includes coverage for accidents incurred while participating in these activities.</li>
+          <li>Proof of insurance: Make sure the plan you purchase will provide you with some form of hardcopy proof of insurance. As discussed above, if you seek care at a hospital or clinic, having a physical document showing that you are insured can mean the difference between receiving treatment and being turned away.</li>
+        </ul>
+        <p>Information <a href="https://www.insidekyoto.com/why-you-need-travel-insurance-for-japan">source</a></p>
+        <br>
+
+  <hr>
+
+        <div id="Packing-advice"><h2>Packing advice</h2></div>
+        <br>
+        <p><b>Bring shoes that are easy to slip on and off</b></p>
+        <p>It's wise to bring shoes that slip on and off easily, many places in Japan - including ryokans (traditional inns), temples, and many izakayas and restaurants - require you to remove your shoes before entering.</p>
+        <p>As a rule of thumb, if you see tatami mats, you'll need to take off your shoes. (In these cases, it's also considered somewhat impolite to be barefoot, so if needed bring a pair of socks with you!).</p>
+        <p>Depending on your itinerary, it's usually also wise to bring comfortable walking shoes.</p>
+
+        <p><b>Pack as lightly as possible</b></p>
+        <p>Packing lightly is a useful skill for travel to any country, but in the case of Japan it is especially worth noting. Navigating Japan is much easier when you have a small, easily-portable bag or suitcase.</p>
+        <p>Most travelers in Japan rely heavily on Japan's comprehensive and easy-to-use railway networks, but unfortunately Japanese trains and train stations do not cater to travelers with a lot of luggage.</p>
+        <p>The shinkansen (bullet train) typically has a small dedicated area for suitcases, but space is at a premium and it is not wise to bank on easily finding a spot for your massive suitcase. On the other hand, the shinkansen's overhead space is just right for small carry-on sized suitcases.</p>
+        <p>As for other (non-shinkansen) trains in Japan: while some do have some space overhead for small bags, many have none at all.</p>
+        <p>For all of these reasons, we recommend traveling either with a small rolling suitcase (or backpack), if at all possible.</p>
+        <p>Fortunately for the heavy packers, takuhaibin - Japan's incredible luggage-forwarding system - means you don't necessarily have to.</p>
+        <p>Takuhaibin (also known as takkyubin) is a fast, reasonable, and very reliable service that allows you to easily and efficiently send suitcases to your accomodations.</p>
+        <p>While in some instances same-day forwarding is possible (for a premium), delivery between most destinations within Japan takes one or two nights, which means spending a night or two without your main luggage.</p>
+        <p><b>How to use takuhaibin?:</b> See <a href="https://boutiquejapan.com/luggage-forwarding/" target="_blank">Luggage Forwarding in Japan.</a></p>
+        <br>
+
+  <hr>
+
+        <div id="Wear-and-Dress"><h2>Wear and Dress code</h2></div>
+        <br>
+        <p>If you enjoy dressing casually, you should be fine in almost all situations. If you have a special occasion (for example, a party or special dinner) then you should dress accordingly. Typically, formal attire is not required, apart from in formal or business situations. However, we recommend using your best judgment, dressing respectfully, and common-sense dress code regulations: no baseball caps, flip flops, shorts, etc.</p>
+        <p><b>Hospital, clinics and laboratories</b></p>
+        <p>For the clinic and laboratories, the use of white coats or scrubs are a requirement. Since you are attending the clinic we suggest you to bring a long white coat with long sleeves. For other activities, there are no real dress code that I am aware of.</p>
+        <p>If you need to use scarf or other garments for religious reasons you may do so as long as it does not affect the work environment, as an example, you cannot wear the scarf in the animal facility since you are required to use a special garment provided by the facility.</p>
+        <p><b>Washing machine</b></p>
+        <p>For those whom are staying at the Kouraku Kainkan washing machine is not available at the facility, however the university arranged the use of the washing machine at the university building.</p>
+        <p>For more information please click <a href="">here</a>. </p>
+        <br>
+
+  <hr>
+
+        <div id="Weather"><h2>Weather in Niigata</h2></div>
+        <br>
+        <p><b>Packing for the weather: the seasons in Japan</b></p>
+        <br>
+        <p>Japan is famous for the beauty of its four very distinct seasons, and it is essential to pack accordingly.</p>
+        <p>This is a good general overview of month-by-month temperatures in Japan but because each year varies, the best thing to do is check weather forecasts a couple of weeks before your trip. Any weather site will do.</p>
+        <p>If you're traveling to various parts of Japan, make sure to check the forecast for each place you'll be visiting, as the weather can vary drastically between different parts of the country.</p>
+        <ul>
+          <li><a href="https://www.timeanddate.com/weather/japan/niigata/climate" target="_blank">Annual Weather Averages Near Niigata.</a></li>
+          <li><a href="https://www.timeanddate.com/weather/japan/niigata" target="_blank">Niigata Weather today & tomorrow.</a></li>
+          <li><a href="https://weatherspark.com/y/143923/Average-Weather-in-Niigata-Japan-Year-Round" target="_blank">Best time to visit Niigata.</a></li>
+        </ul>
+
+        <br>
+
+  <hr>
+
+        <div id="Miscellaneous"><h2>Miscellaneous items for your trip to Japan</h2></div>
+        <br>
+        <p id="internet"><b>Internet Connection</b></p>
+
+        <p>For SSVP students, Internet connection is available through the Dental School's Wi-Fi service and the accommodations outside the University Campus (Hotel's WiFi). However, there is no Wi-Fi service at the accommodation facilities inside the campus (Kouraku Kaikan). Hence, we recommend to acquire a <b>Pocket Wi-Fi device or Cellular SIM card data Plan.</b></p>
+        <p>Wi-Fi in Japan is not nearly as widespread as most people imagine (read more about <a href="https://boutiquejapan.com/wifi-and-mobile/">Wi-Fi and mobile in Japan</a>). Even if you don't plan to check email or upload photos, being able to use Google and Google Maps while out and about exploring is essential!</p>
+        <p>Pocket Wi-Fi and Cellular SIM cards are available in many phone and electronic shops (like Bic-Camera and Yodobashi); there are a wide range of prices and plans to choose.</p>
+        <p><b>More information: </b></p>
+        <ul>
+          <li><a href="https://www.biccamera.com/bc/item/3567968/" target="_blank">Prepaid 1G SIM card</a></li>
+          <li><a href="https://t.iijmio.jp/en/index.html" target="_blank">Service Overview</a></li>
+        </ul>
+
+        <br>
+        <p id="WiFi"><b>Wi-Fi connection</b></p>
+        <p>To use Wi-Fi in our dental school, you are required to submit the "Wi-Fi ADDRESS or mac address" of your phone or tablet (in advance if possible). Regarding laptop PCs, only devices with the latest ANTIVIRUS updates will be allowed to connect. Keep in mind that the Wi-Fi router will be sheared with all the international students, if the system detects a virus in any of the connected devices, it will shut down the router and no one will be allowed to connect until all devices are checked and cleared.</p>
+        <p>Please send the "Wi-Fi ADDRESS" or a screenshot of the information via email.</p>
+        <p>If you don't know how to retrieve the address information, we will help you at your arrival on campus.</p>
+
+        <br>
+        <p id="Travel-adapter"><b>Travel adapter</b></p>
+        <p>Most of Japan's electrical outlets are 2-pronged "Type A" (100 Volt, 50-60 Hz), so if you have a device with a 3-pronged or other-style plug, you may need a <a href="https://www.amazon.com/gp/product/B01N78TDF1/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01N78TDF1&linkCode=as2&tag=boutjapatravc-20&linkId=393953bb41b84cb06676ccf630e3dc98" target="_blank">travel adapter</a>. Many electronic devices (such as mobile phones, tablets, laptops, etc.) already have transformers, which means you may not need a converter, but make sure to check your items' voltage requirements. Read here for more about <a href="https://www.japan-guide.com/e/e2225.html" target="_blank">electricity in Japan</a>.</p>
+
+        <br>
+        <p id="gifts"><b>Small gifts from home</b></p>
+        <p>Small local gifts are wonderful for giving to professors and other people you meet along the way. <b>Tipping is not common in Japan</b>, but thoughtful gifts are always appreciated. Gifts representative of your local region or country are especially loved, e.g., a famous local product or local artisanal product.</p>
+
+        <br>
+        <div id="Travel-app"><p><b>Download a Travel App Companion</b></p></div>
+        <p>The Japanese railway systems are one of the most complex and complicated railway system in the world. The best tip is to download a travel app which can suggest the navigation lines and multiple transit options for you to choose from. Google Maps and <a href="https://itunes.apple.com/us/app/navitime-for-japan-travel-transit-wi-fi-search/id686373726?mt=8" target="_blank">JAPAN TRAVEL</a> are good recommended apps.</p>
+        <p>For Niigata city, Google maps provides reliable information on trains but not so much on buses. For the Bus system, the online page powered by <a href="http://transfer.navitime.biz/niigatabrt-newsystem/pc/map/Top">NAVITIME</a> provides accurate information on bus time schedule and Stops, however is not tourist friendly since the page is only in Japanese.</p>
+        <p>Regarding the communication between the SSVP students, Niigata University students and coordinators, we strongly advise to download and install the <a href="https://line.me/en/" target="_blank">LINE</a>  application in your phone. In japan, Line app is the most popular application for messaging and communication, almost all Japanese student at Niigata university use it, making it a very convenient tool. </p>
+        <br>
+
+      </div>
+    </div>
+  </div>
+</page2>
+
+
+<page3>
+  <div class="Wrapper1">
+    <div class="grid1">
+      <div class="header" id="Arrival"> <h1>Arrival</h1></div>
+
+      <div class="sidebar">
+
+        <!-- Navbar Toggle button Start  from: https://getbootstrap.com/docs/4.0/components/navbar/-->
+          <button class="navbar-toggler navbar-light Marcelo-side-toggle-button" id="" type="button" data-toggle="collapse" data-target="#Page3" aria-controls="Marcelo-side-menu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button><!-- the class="Marcelo-side-toggle-button" is for calling css display:none; in large screens-->
+        <!-- Navbar Toggle button Ends -->
+
+        <div class="collapse-nav collapse Marcelo-side-menu" id="Page3"> <!-- class="Marcelo-side-menu" is nesseary for css display in large screens, id="Page1" is for the button to called an specific menu (cannot be a class)-->
+
+
+          <div class="sidebarmenuitem"><a href="index.html#Arrival">Commute</a></div>
+          <hr>
+
+          <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
+          <div class="nav btn-info" data-toggle="collapse" data-target="#Tickets-sidemenu" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;"><a style="color: white;" href="index.html#Tickets">Tickets and Passes </a>&#x25BC;</div>
+            <div id="Tickets-sidemenu" class="collapse demo-collapse">
+              <ul style="text-decoration: none;">
+                <li><a href="index.html#JR-Pass">JR Pass</a></li>
+                <li><a href="index.html#IC-Card">IC Cards</a></li>
+                <li><a href="index.html#local-train-ticket">Train tickets</a></li>
+                <li><a href="index.html#local-bus-ticket">Bus tickets</a></li>
+              </ul>
+            </div>
+          <!-- Dropdown button End -->
+
+          <hr>
+
+          <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
+          <div class="nav btn-info" data-toggle="collapse" data-target="#Highway-Buses-sidemenu" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;"><a style="color: white;" href="index.html#Highway-Buses">Highway Buses </a>&#x25BC;</div>
+            <div id="Highway-Buses-sidemenu" class="collapse demo-collapse">
+              <ul style="text-decoration: none;">
+                <li><a href="index.html#Willer">Willer Express</a></li>
+                <li><a href="index.html#JR-Buses">JR Bus</a></li>
+                <li><a href="index.html#Japan-Bus">Japan Bus</a></li>
+                <li><a href="index.html#Queue-lines">Queue lines</a></li>
+              </ul>
+            </div>
+          <!-- Dropdown button End -->
+
+          <hr>
+
+          <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
+          <div class="nav btn-info" data-toggle="collapse" data-target="#demo-03" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;"><a style="color: white;" href="index.html#Getting-to-Niigata">Getting to Niigata</a> &#x25BC;</div>
+            <div id="demo-03" class="collapse demo-collapse">
+              <ul style="text-decoration: none;">
+                <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
+                <div class="nav btn-info" data-toggle="collapse" data-target="#Airport-Niigata-sidemenu" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;"><a style="color: white;" href="index.html#Airport-Niigata">1. From the Airport to Niigata </a>&#x25BC;</div>
+                  <div id="Airport-Niigata-sidemenu" class="collapse demo-collapse">
+                    <ul style="text-decoration: none;">
+                      <li><a href="index.html#From-Narita">From Narita Airport</a></li>
+                      <li><a href="index.html#From-Haneda">From Haneda Airport</a></li>
+                      <li><a href="index.html#Tokyo-Niigata">From Tokyo Stn to Niigata Stn</a></li>
+                      <li><a href="index.html#Tranfer-JoetsuShinkansen">Transfer Narita Express to Joetsu Shinkansen</a></li>
+                      <li><a href="index.html#NiigataAirport-NiigataStation">From Niigata Airport to Niigata Station</a></li>
+                    </ul>
+                  </div>
+                <!-- Dropdown button End -->
+
+                <div class="sidebarmenuitem"><a href="index.html#NiigataStn-Hospital">2. From Niigata Stn to Niigata Hospital</a></div>
+              </ul>
+            </div>
+          <!-- Dropdown button End -->
+          <hr>
+          <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
+          <div class="nav btn-info" data-toggle="collapse" data-target="#Accommodations-sidemenu" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;"><a style="color: white;" href="index.html#Accommodations">Accommodations </a> &#x25BC;</div>
+            <div id="Accommodations-sidemenu" class="collapse demo-collapse">
+              <ul style="text-decoration: none;">
+                <li><a href="index.html#Kouraku-kaikan">Kouraku kaikan (康楽会館) guesthouse</a></li>
+                <li><a href="index.html#Country-Hotel">Country Hotel Niigata カントリーホテル新潟</a></li>
+              </ul>
+            </div>
+          <!-- Dropdown button End -->
+
+          <hr>
+          <div class="sidebarmenuitem"><a href="index.html#bus-Hospital">Bus to the Hospital</a></div>
+          <hr>
+
+          <div class="sidebarmenuitem"><a href="index.html#Arrival">Example</a></div>
+
+          <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
+          <div class="nav btn-info" data-toggle="collapse" data-target="#Call-example" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;">Example &#x25BC;</div>
+            <div id="Call-example" class="collapse demo-collapse">
+              <ul style="text-decoration: none;">
+                <li><a href="index.html#">Submenu</a>
+                  <ul>
+                    <li><a href="index.html#">link1</a></li>
+                    <li><a href="index.html#">link2</a></li>
+                    <li><a href="index.html#">link3</a></li>
+                    <li><a href="index.html#"></a></li>
+                    <li><a href="index.html#"></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          <!-- Dropdown button End -->
+
+          <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
+          <div class="nav btn-info" data-toggle="collapse" data-target="#Call-example2" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;">Example &#x25BC;</div>
+            <div id="Call-example2" class="collapse demo-collapse">
+              <ul style="text-decoration: none;">
+                <li><a href="">Submenu</a>
+                  <ul>
+                    <li><a href="index.html#">link1</a></li>
+                    <li><a href="index.html#">link2</a></li>
+                    <li><a href="index.html#">link3</a></li>
+                    <li><a href="index.html#"></a></li>
+                    <li><a href="index.html#"></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          <!-- Dropdown button End -->
+
+
+          <hr>
+          <div class="sidebarmenuitem"><a href="index.html#">Another example</a></div>
+          <hr>
+          <div class="sidebarmenuitem"><a href="index.html#Top">Top</a></div>
+        </div>
+       </div>
+
+      <div class="content">
+      <hr>
+        <div id="Commute"><h2>Commute</h2></div>
+        <br>
+        <p><b>Railways (電車/ densha ), subways (地下鉄/ chikatetsu) and Buses (バス/Basu)</b></p>
+        <br>
+        <p>Most trains are run by the Japan Railway (JR) company but some railways, especially in other regions, are run by private companies. Railway trains usually cover longer routes and serve most suburban areas in Japan. You also have the option to take the subway trains for routes not covered by railway trains. In Tokyo for example, the subway system is run by Tokyo Metro and the Toei Subway. Take note that a single train company usually runs multiple lines or routes with fixed ticket prices. But if you transfer to another line run by a different company, chances are you will have to pay more fee for the ticket.</p>
+        <p>In Niigata however, there are only trains (JR) and buses (no subways).</p>
+        <br>
+      <hr>
+        <div id="Tickets"><h2>Tickets and Passes</h2></div>
+        <br>
+        <p id="JR-Pass"><b>Japan Rail Pass</b></p>
+        <p>The Japan Rail Pass (also commonly called JR Pass) is a very cost-effective rail pass for long distance train travel in Japan. It can be used by foreign tourists only, and offers unlimited use of JR trains for one, two or three weeks at a cost that residents of Japan can only dream of. The pass comes in two types: ordinary and green car. The latter is valid on green cars (first class cars) that offer more spacious seats than ordinary cars.</p>
+        <p>If you are planning to have long distance travels to visit other cities or regions during your stay in Japan we highly recommend the JR Pass.</p>
+        <p>Purchase the Japan Rail Pass and other services <a href="https://www.japan-rail-pass.com/" target="_blank">here.</a></p>
+        <p>For more information click <a href="https://www.japan-guide.com/e/e2361.html">here.</a></p>
+        <br>
+      <hr>
+        <div id="IC-Card"><p><b>IC Card's</b></p></div>
+        <br>
+        <p>This is the most ideal way to save money for your transportation expenses. These rechargeable prepaid cards can be used to conveniently pay for your train fares among others. Japan has several (10) popular IC cards including Suica- the IC card by JR trains, and Pasmo- the IC card of Tokyo's railway, subway and operators other than JR, which you can use in almost all trains and subways in most of Japan's cities. These IC cards are convenient to use, as you will only touch the card onto the card readers in stations' ticket gates, and your fare will be deducted automatically.</p>
+        <p>In Niigata city, Suica card can be used for the trains and the buses as well. Thus, it is our recommendation for Niigata.</p>
+        <br>
+      <hr>
+      <div id="local-train-ticket"><p><b>Buying a local train ticket</b></p></div>
+        <br>
+        <p>Buying a train ticket or "kippu" is easy. Keep in mind that not all tickets work in lines run by different railway or subway companies. When purchasing a ticket, make sure to use the right ticket machine. However, most train stations can be confusing, <b>do not hesitate to ask</b> where to buy a ticket (kippu wa doko ni kaimasu ka?) and how to get into your platform. Stations have excellent customer service ready to assist you if ask for help.</p>
+        <br>
+      <hr>
+        <div id="local-bus-ticket"><p><b>Buying a local bus ticket </b></p></div>
+        <br>
+        <p>Using buses in Japan can be intimidating to foreigners because there are different ticketing systems depending on the company and recognizing the stop that you want to get off can be challenging. While some bus companies do a good job at providing English signage, timetables and announcements, many buses lack any English information, altogether. </p>
+        <p>Below is a description of the most common system, followed by notes about exceptions:</p>
+        <ol>
+          <li>Enter the bus through the <b>back door</b>.</li>
+          <li>When entering, pick up a ticket from a small machine next to the door. A number is printed on the ticket (usually the bus stop number), which you will later use to determine your fare. Do NOT lose this ticket, otherwise the bus driver will charge the fare from the start of the bus line. If you use an IC card to pay the fare, touch your card against the sensor.</li>
+          <li>A display above the driver shows the next stop and the fares for that stop in yen. To determine your fare, match the number on your ticket with the number and fare on the display. If you use an IC card, then you do not have to worry about this.</li>
+          <li>When your stop is approaching, press one of the buttons on the wall to signal the driver that you wish to get off at the next stop, and prepare the <b>exact fare money.</b></li>
+          <li>Exit the bus through the <b>front door</b>. If you do not have the exact fare, use the <b>changing machine</b> to get small coins.</li>
+          <li>When getting off, put your ticket and the exact fare into the box next to the driver. If you use an IC card, touch the card against the reader near the driver.</li>
+        </ol>
+        <p>In many cities or city centers, for example in central Kyoto, a flat fare applies, i.e. you always pay the same price regardless of how far you travel. This means that you do not have to worry about steps 2) and 3) in the above description.</p>
+        <p>Of course, there are a few exceptions to the above outlined system. The most prominent exception are buses where you are supposed to enter through the front door, pay a flat fare when entering, and exit through the rear door, for example, city buses in Tokyo.</p>
+        <br>
+      <hr>
+        <div id="Highway-Buses"><h2>Highway Buses</h2></div>
+        <br>
+        <p>Highway buses (高速バス, kōsoku bus) are an inexpensive alternative to trains for long and medium distance travel in Japan. On longer distances many highway buses travel overnight. While buses tend to be slower than express trains, they are usually considerably cheaper. Especially on competitive routes, discount fares have dropped to very low levels. There is also the Japan Bus Pass which allows for very cheap bus travel.</p>
+        <h5>Bus Companies</h5>
+        <br>
+        <p>There exist dozens of highway bus companies in Japan, including the former state-run JR Bus companies, many regional bus companies and discount bus operators. Many of these bus operators do not maintain an English website and are difficult to use by foreign tourists. Below are some of the bus companies and services which are easy to use by foreigners:</p>
+        <br>
+        <p id="Willer"><b>Willer Express</b></p>
+        <p><a href="http://willerexpress.com/en/?aid=184" target="_blank">Willer Express</a> is a leading discount bus operator with a wide network that allows for interregional bus travel. It is one of the few bus operators which allow online reservations in English. Willer Express also sells the <a href="https://www.japan-guide.com/e/e2369.html">Japan Bus Pass</a>, a very cheap bus pass for foreign tourists in Japan.</p>
+        <br>
+        <p id="JR-Buses"><b>JR Buses</b></p>
+        <p>Formerly part of the state run National Railway and now child companies of the <a href="https://www.japan-guide.com/e/e2019.html" target="_blank">JR Group</a>, there are eight regional JR Bus companies, which together operate a nationwide network of highway buses: JR Hokkaido Bus, JR Tohoku Bus, JR Kanto Bus, JR Tokai Bus, Nishinihon JR Bus, Chugoku JR Bus, JR Shikoku Bus and JR Kyushu Bus.</p>
+        <p>While not as cheap as discount buses, JR buses are still considerably cheaper than <a href="https://www.japan-guide.com/e/e2019.html" target="_blank">express trains</a> and are relatively easy to use by foreign tourists, because tickets can be bought and seat reservations made at ticket counters at JR railway stations across Japan. In addition, <a href="https://www.kousokubus.net/JpnBus/en">kousokubus.net</a> allows for English online reservations of some JR highway bus lines.</p>
+        <p>Until spring 2013, the <a href="https://www.japan-guide.com/e/e2361.html" target="_blank">Japan Rail Pass</a> used to be valid on a small number of JR highway bus lines, but it is now not valid on any highway bus anymore.</p>
+        <p id="Japan-Bus"><b>Japan Bus Online</b></p>
+        <p>Japan <a href="https://japanbusonline.com/?afcd=MDI=" target="_blank">Bus Online</a> is an English website that allows users to make online reservations for dozens of bus lines of multiple bus companies nationwide.</p>
+        <p>For more information click <a href="https://www.japan-guide.com/e/e2366.html" target="_blank">here</a> </p>
+        <br>
+      <hr>
+        <div id="Queue-lines"><p><b>Queue lines in Japan</b></p></div>
+        <br>
+        <p>Even with all the people rushing to get on and off the train, it is amazing how organized and orderly the local people are when lining up the platform. No matter how in a hurry a person is, everybody stands and waits just over the line which indicates where people have to wait exactly for the train or bus door entrance. Also, it is important to remember that people should always stand behind the yellow lines of the platform; it is dangerous to stand near to the line while a fast-train is approaching, most platforms usually do not have barriers. Accidents happen occasionally, please be careful.</p>
+        <p>Remember that time is of the essence in Japan, and you better be at your platform before your expected time of departure.</p>
+        <p></p>
+        <br>
+      <hr>
+        <div id="Getting-to-Niigata"><h2>Getting to Niigata</h2></div>
+        <br>
+        <p>Niigata City is located on the northwest coast of Honshu, Japan's largest island, facing the Japan Sea. The two main ways of reaching the city are by plane into Niigata International Airport, and by train into JR Niigata Station. Direct international flights fly to and from Seoul, Shanghai, and Harbin.</p>
+        <p>Domestic flights fly to and from many major cities, including Tokyo (Narita), Osaka, Nagoya, Fukuoka, and Sapporo.</p>
+        <br>
+      <hr>
+        <div id="Airport-Niigata"><h4>From the Airport to Niigata</h4></div>
+        <br>
+        <p>Tokyo has two airports, Narita International Airport (成田空港, Narita Kūkō, NRT), which handles a large number of international flights as well as domestic and international flights by many low-budget airlines, and the more centrally located Haneda Airport (羽田　空港, Haneda Kūkō, HND), which handles the city's main share of domestic traffic and an increasing number of international flights.</p>
+        <p>Whether you arrive at Narita Airport（成田　空港）or Haneda Airport（羽田　空港）, you will need to commute form the airport to Tokyo Station.</p>
+        <br>
+      <hr>
+        <div id="From-Narita"><p><b>From Narita Airport</b></p></div>
+        <br>
+        <p>Narita Airport (formerly also known as New Tokyo International Airport) is located in the city of Narita in Chiba Prefecture, about 60 kilometers outside of Tokyo. It consists of three terminal buildings: terminal 1, terminal 2 and terminal 3. Terminal 1 and 2 each have a railway station in their respective basements. Terminal 3 serves low-budget airlines and is connected with terminal 2 by a pedestrian walkway. Free shuttle buses operate between all three terminals.</p>
+        <p>Narita Airport is connected with central Tokyo by multiple rail and bus lines. </p>
+        <ul>
+          <li>JR <a href="http://www.jreast.co.jp/e/nex/index.html?src=t_info" target="_blank">Narita Express:</a>The Narita Express or N'EX. Please check <a href="http://www.jreast.co.jp/e/nex/tickets.html" target="_blank">Ticket prices</a> and <a href=" http://www.eki-net.com/pc/jreast-shinkansen-reservation/english/wb/common/timetable/e_nex_u/index.html" target="_blank">Time Tables</a>. </li>
+          <li>JR Sobu Line</li>
+          <li>Keisei Skyliner</li>
+          <li>Keisei Limited Express</li>
+          <li>Limousine bus</li>
+          <li>Tokyo Shuttle bus</li>
+          <li>The Access Narita bus</li>
+        </ul>
+      <hr>
+      <div class="videoWrapper">
+        <!-- Copy & Pasted from YouTube -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xGOxrTPlm0c?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+        <br>
+        <p>For a complete guide click <a href="https://www.japan-guide.com/e/e2027.html" target="_blank">here</a>. </p>
+        <br>
+      <hr>
+        <div id="From-Haneda"><p><b>From Haneda Airport</b></p></div>
+        <br>
+        <p>Haneda Airport (羽田空港, Haneda Kūkō, HND), formally known as Tokyo International Airport, is located less than 30 minutes south of central Tokyo, considerably closer to the city center than Narita Airport, Tokyo's other airport. Compared to Narita Airport, Haneda Airport handles way more domestic flights, but fewer international flights. With over 60 million passengers per year overall, Haneda Airport is by far Japan's busiest airport and ranks among the world's five busiest airports.</p>
+        <p>Domestic flights use the airport's two other terminals: terminal 1 is mainly used by JAL, while terminal 2 is mainly used by ANA. Free shuttle buses operate frequently between all terminal buildings (outside of the security check). Transit passengers between the domestic and international terminals may also use the monorail or Keikyu Railway for free if they get a special transit pass at the information counter. In addition, ANA and JAL operate direct buses for checked-through passengers between the secure areas of the international and their respective domestic terminals to further reduce transit times.</p>
+        <p>Haneda Airport is connected with central Tokyo by.</p>
+        <ul>
+          <li>Tokyo <a href="http://www.tokyo-monorail.co.jp/english/">Monorail</a></li>
+          <li>Keikyu Railways</li>
+          <li>Limousine bus</li>
+        </ul>
+        <br>
+
+        <!--Video Start Copy & Pasted from YouTube-->
+        <div class="videoWrapper">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mt9HDxBvCmE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <!--Video End Copy & Pasted from YouTube-->
+
+        <br>
+        <p>For a complete guide click <a href="https://www.japan-guide.com/e/e2430.html" target="_blank">here</a>.</p>
+        <br>
+
+      <hr>
+        <div id="Tokyo-Niigata"><p><b>From Tokyo station to Niigata station.</b></p></div>
+        <br>
+        <p>Perhaps the most convenient way to travel between Tokyo and Niigata is by the "Toki" or "Max Toki" shinkansen (bullet train), on <b>JR East's Joetsu Shinkansen line</b>. Trains runs approximately 30 times each way on weekdays, and about 40 times on Saturdays, Sundays, and holidays, with earliest departures just after 6 am, and the final departure around 9:30 pm. One-way adult fares start at 10,570 yen.</p>
+        <p>Shinkansen trains to Niigata usually depart from tracks 20 - 23</p>
+        <p>For more information on the  <b><a href="http://www.jreast.co.jp/e/routemaps/joetsushinkansen.html" target="_blank" style="color: rgba(0,133,85,1);">Joetsu Shinkansen line </a></b><a href="http://www.eki-net.com/pc/jreast-shinkansen-reservation/english/wb/common/timetable/index.html" target="_blank">Time table</a>: <a href="http://www.eki-net.com/pc/jreast-shinkansen-reservation/english/wb/common/timetable/e_joetsu_d/index.html" target="_blank">From Tokyo</a> and <a href="http://www.eki-net.com/pc/jreast-shinkansen-reservation/english/wb/common/timetable/e_joetsu_u/index.html" target="_blank">To Tokyo</a></p>
+        <p>For more information on the <a href="http://www.jreast.co.jp/e/ticket/index.html" target="_blank">tickets</a>.</p>
+        <p>For more information on <a href="http://www.jreast.co.jp/e/charge/index.html" target="_blank">Fares & Charges</a></p>
+        <p>For more detail information click <a href="http://www.nvcb.or.jp/travelguide/en/contents/access/index_access.html" target="_blank">here</a>.</p>
+        <p></p>
+        <p>Foreigners visiting for short-term travel may wish to purchase a JR East pass or Japan Rail pass, which offer unlimited free travel on JR train lines. Travel by plane is also available; ANA runs one daily flight between Narita Airport and Niigata Airport. Niigata can also be reached by bus or car via expressway. Sixteen express buses for Niigata leave each day from the terminal just outside the east exit of Tokyo's Ikebukuro train station.</p>
+        <p></p>
+        <p>The  <a href="http://www.jreast.co.jp/e/eastpass_n/index.html?src=gnavi" target="_blank">JR EAST PASS</a> (Nagano, Niigata area) is a special discounted pass available only to customers visiting Japan (with a short-term visa no longer than 90 days) and holding a non-Japanese passport. <b>This pass can be purchase after your arrival to Japan.</b> It allows unlimited rides on all JR East train lines in the JR EAST PASS (Nagano, Niigata area) designated area.</p>
+        <p></p>
+        <p>Start with a trip from Narita Airport or Haneda Airport to Tokyo, for example, then ride around, and maybe hop aboard the Shinkansen or a limited express to Nagano or Niigata. In addition to JR East lines, the JR EAST PASS (Nagano, Niigata area) allows rides on some non-JR trains in the Izu and Nikko areas. While in Japan, take advantage of this great offer to see a lot more for a lot less.</p>
+
+        <p>For more information  on Fares and Passes click <a href="http://www.jreast.co.jp/e/pass/index.html?src=gnavi" target="_blank">here</a>.</p>
+        <p></p>
+        <br>
+
+
+      <hr>
+        <p id="Tranfer-JoetsuShinkansen"><b>Tranfer from Narita express to Joetsu Shinkansen</b></p>
+        <br>
+        <p>Tokyo Station is one of the biggest and busiest station in the world. For the inexperienced traveler, commuting here can be challenging.</p>
+        <p>Changing trains can be complicated and frustrating at times. Here is a guide on how to get from the underground platform where the Narita express arrives, to the Joetsu Shinkansen bound to Niigata in plataforms 20 - 23.</p>
+        <!-- PDF embed from assets Start-->
+          <embed src="assets/TokyoStation-Joetsu Train to Niigata.pdf#toolbar=0&navpanes=0" type="application/pdf" width="100%" height="700px" style=" display: block; margin-left: auto; margin-right: auto;" />
+        <!-- PDF embed from assets End-->
+
+        <!--Photo gallery Starts here taken from https://codepen.io/caraya/pen/NGoWKM?depth=everything&order=popularity&page=15&q=image+gallery+&show_forks=false-->
+        <div class="boxes">
+          <div class="box box1">
+            <img src="img/TYOtoNGT/TYOtoNGT-01.jpg" alt="" />
+            <p>1. Narita Express train</p>
+          </div>
+          <div class="box box1">
+            <img src="img/TYOtoNGT/TYOtoNGT-02.jpg" alt="" />
+            <p>2. The Narita Express arrives on Sobu Rapid track #1 from NRT.</p>
+          </div>
+          <div class="box box1">
+            <img src="img/TYOtoNGT/TYOtoNGT-03.jpg" alt="" />
+            <p>3. Take the escalator to the basement 4.</p>
+          </div>
+          <div class="box box1">
+            <img src="img/TYOtoNGT/TYOtoNGT-04.jpg" alt="" />
+            <p>4. Then another one to the basement 1.</p>
+          </div>
+          <div class="box box1">
+            <img src="img/TYOtoNGT/TYOtoNGT-05.jpg" alt="" />
+            <p>5. Walk to the escalator.</p>
+          </div>
+          <div class="box box1">
+            <img src="img/TYOtoNGT/TYOtoNGT-06.jpg" alt="" />
+            <p>6. Go up to the ground level.</p>
+          </div>
+          <div class="box box1">
+            <img src="img/TYOtoNGT/TYOtoNGT-07.jpg" alt="" />
+            <p>7. Then proceed to the Shinkansen entrance following the signboards.</p>
+          </div>
+          <div class="box box1">
+            <img src="img/TYOtoNGT/TYOtoNGT-08.jpg" alt="" />
+            <p>8. Head diagonally forward left.</p>
+          </div>
+          <div class="box box1">
+            <img src="img/TYOtoNGT/TYOtoNGT-09.jpg" alt="" />
+            <p>9. This is the Tokaido Shinkansen central transfer entrance.</p>
+          </div>
+          <div class="box box2" id="box2">
+            <img src="img/TYOtoNGT/TYOtoNGT-10.jpg" alt="" />
+            <p>10. This is the Tohoku, Joetsu Shinkansen central transfefr entrance.</p>
+          </div>
+        </div>
+        <!--Photo gallery Ends here -->
+
+        <p>Source <a href="http://gutereise09.blogspot.jp/2008/07/transfer-from-narita-express-to.html">here</a></p>
+        <hr>
+        <p>Travel time to Niigata is about 2 hours in Shinkansen.</p>
+
+        <!-- Map Starts Copy & Pasted from google maps -->
+        <div class="videoWrapper">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d414680.9564174859!2d139.79461870244367!3d35.70912313667028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2sTokyo+Station%2C+1+Chome+Marunouchi%2C+Chiyoda%2C+Tokyo!3m2!1d35.6811673!2d139.7670516!4m5!1s0x5ff4c99ae88a6b01%3A0x3b1d928b98b9a3ea!2sNiigata+Station%2C+1+Chome+Hanazono%2C+Chuo%2C+Niigata%2C+Niigata+Prefecture!3m2!1d37.9120208!2d139.0618713!5e0!3m2!1sen!2sjp!4v1520355349682" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <!-- Map Ends Copy & Pasted from google maps -->
+      <hr>
+
+        <div id="NiigataAirport-NiigataStation"><p><b>From Niigata Airport to Niigata station.</b></p></div>
+        <br>
+        <p>Niigata Airport is located in a very accessible and convenient location, only 25 minutes away from JR Niigata Station by limousine bus and 10 minutes away from the nearest highway interchange. Niigata Prefecture's transportation network is well-developed, and both people living in Niigata and people living in neighboring prefectures make use of Niigata Airport for business travel and for going on vacation.</p>
+        <p><b>Arrival Procedures</b></p>
+        <p>Arrivals at Niigata airport can be Domestic or International depending on your connection flight.</p>
+        <p>If you arrive through and International flight please follow the <a href="https://www.niigata-airport.gr.jp/procedure/international_arrivals.php?lang=en" target="_blank">Arrival procedures for international flights</a>. If a staff member of the university picks you up from the airport please <b>wait at the International arrival lobby (area #4 in the map)</b>.</p>
+        <p>If you arrive in a domestic flight please follow the <a href="https://www.niigata-airport.gr.jp/procedure/domestic_arrivals.php?lang=en" target="_blank">Arrival procedures for domestic flights</a> and <b>wait at the domestic arrival lobby (area #3 in the map)</b>.</p>
+        <p>There is both a limousine bus and a regular city bus that go between Niigata station and Niigata Airport.</p>
+        <p>More information on the <a href="https://www.niigata-airport.gr.jp/access/bus.php?lang=en" target="_blank">Bus and schedule</a> here.</p>
+        <p>For more information on <a href="https://www.niigata-airport.gr.jp/?lang=en" target="_blank">Niigata Airport click here</a>.</p>
+        <br>
+
+      <hr>
+        <div id="NiigataStn-Hospital"><h2>From Niigata Station to Niigata University Hospital (Asahimachi Campus).</h2></div>
+        <br>
+        <p>Arriving to Niigata Station, get off the Shinkansen and take the escalator towards the lower level waiting area, a member of the SSVP or a student will be waiting for you there. To make the meeting easy, please wait at the meeting point located in the waiting area (red dot in map 1). The meeting point is easy to recognize since it consist on round pink sofas (see the picture 1 and 2 below). </p>
+        <p>In case different arrangements have been made and you need to commute from the Station to the University you can take the train, the bus or a taxi. </p>
+        <p>For the bus and taxi stops you need to walk from the waiting area of the station to the Bus station at the Bandai entrance. (see map 2) </p>
+
+        <!--minmax() in auto-fill repeating tracks Start https://gridbyexample.com/examples/example28/ -->
+        <div class="wrapper-02">
+          <div class="box-01 a">
+            <img src="img/e1137-01.jpg" alt="photo 1">
+            <div class="desc">Map 1. Waiting area (red dot).</div>
+          </div>
+          <div class="box-01 b">
+            <img src="img/meeting-point-01.jpg" alt="photo 1">
+            <div class="desc">Meeting area.</div>
+          </div>
+          <div class="box-01 c">
+            <img src="img/meeting-point-02.jpg" alt="photo 1">
+            <div class="desc">Meeting point.</div>
+          </div>
+          <div class="box-01 d">
+            <img src="img/e1137-2.jpg" alt="photo 1">
+            <div class="desc">Map 2. Walk form the waiting to the Bandai side bus station.</div>
+          </div>
+          <div class="box-01 e"></div>
+          <div class="box-01 f"></div>
+        </div>
+        <!--minmax() in auto-fill repeating tracks End  CSS included https://gridbyexample.com/examples/example28/ -->
+
+
+        <p>Niigata University has 2 campuses. </p>
+        <ul>
+          <li><a href="https://www.niigata-u.ac.jp/en/about-us/access/ikarashi.html" target="_blank">Ikarashi</a> campus and</li>
+          <li><a href="https://www.niigata-u.ac.jp/en/about-us/access/asahimachi.html" target="_blank">Asahimachi </a>campus.  </li>
+        </ul>
+        <p>The Ikarashi campus of the university, which can be found south west of Niigata city center, near the coast, houses colleges including the Faculty of Engineering, Faculty of Law, Faculty of Science, Faculty of Engineering, Faculty of Agriculture and the Faculty of Humanities, along with the Central Library and the Health Administration Centre. It also includes most of the university's accommodation and sports facilities, which include spaces reserved for baseball, rugby, football, tennis, athletics and equestrian.</p>
+        <p>The more central Asahimachi campus is home to the Faculty of Medicine and Dentistry, the latter of which was established in 1965. The emblem of the university is called "Rikka", and depicts the shape of a snow crystal.</p>
+        <br>
+      <hr>
+        <div id="Accommodations"><h2>Accommodations</h2></div>
+        <br>
+        <p>For accommodation of international students in Ikarashi Campus click <a href="https://www.niigata-u.ac.jp/en/campus/life/accommodation.html" target="_blank">here</a>.</p>
+        <p>Students participating in the SSVP will be staying in accommodation near to the Dental School.</p>
+        <p>University usually arrange 2 places.</p>
+
+        <ol>
+          <li>Undergraduates: <b>Kouraku kaikan guesthouse 康楽会館</b></li>
+          <p>Address: 1-756, Asahimachi-dori, Chuo-ku, Niigata-shi（新潟市中央区旭町通1-756）Phone: None</p>
+          <p>Location in Google map <a href="https://www.google.co.jp/maps/place/%E3%80%92951-8122+Niigata-ken,+Niigata-shi,+Ch%C5%AB%C5%8D-ku,+Asahimachid%C5%8Dri+1+Banch%C5%8D,+%E5%BA%B7%E6%A5%BD%E4%BC%9A%E9%A4%A8/@37.9182329,139.0360957,17.52z/data=!4m8!1m2!2m1!1zNi0xMTQwLTEg5paw5r2f5biC5Lit5aSu5Yy65pys55S66YCaNueVqueUujExNDAtMQ!3m4!1s0x5ff4c9e9bfbc2105:0xfe4cc9e4794a3b29!8m2!3d37.9184353!4d139.0373294?hl=en" target="_blank">here</a>. </p>
+          <li>Postgraduates: <b>Country Hotel Niigata.</b></li>
+          <p>Address: 6-1140-1, Honcho-dori, Chuo-ku, Niigata-shi (新潟市中央区本町通6番町1140-1) Phone: 025-229-3300</p>
+          <p>Location in Google map <a href="https://www.google.co.jp/maps/place/%E3%82%AB%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC%E3%83%9B%E3%83%86%E3%83%AB%E6%96%B0%E6%BD%9F/@37.9193936,139.0437821,15.67z/data=!4m8!1m2!2m1!1zNi0xMTQwLTEg5paw5r2f5biC5Lit5aSu5Yy65pys55S66YCaNueVqueUujExNDAtMQ!3m4!1s0x0:0xd2d82fdd2be353bb!8m2!3d37.9213247!4d139.0469203?hl=en " target="_blank">here</a>. </p>
+        </ol>
+        <br>
+
+        <p id="Kouraku-kaikan"><b>Kouraku kaikan 康楽会館</b></p>
+        <p>In general, undergraduate SSVP are able to stay in the Kouraku kaikan guest house (康楽会館) facilities that are located adjacent to the Asahimachi campus（旭町キャンパス）literally in front of the hospital building, moreover the price is exceptionally low.</p>
+        <p>However, rooms are limited and practically full all year round, therefore; we encourage students to <b>make the arrangements of the trip early in advance and inform the office quickly</b> on the visiting dates to make the reservations.</p>
+        <ul>
+          <li><b>Types of rooms:</b> 1 Tween western sty room, 5 Single rooms, 2 japanese style rooms (tatami mats).</li>
+          <li><b>Price per night:</b> Between 2000¥ to 2500¥ depending on the season.</li>
+          <li><b>Unavailability:</b> From December 28th to January 4th of the next year.</li>
+          <li><b>Office attention hours:</b> From 9 am to 17 pm.</li>
+          <li><b>Check in time:</b> 4pm. </li>
+          <li><b>Check out time: </b>10am. <b style="color:red;">*Strictly!!</b> Please also keep in mind that you <b>cannot leave your luggage after check out</b>.Plan accordingly! </li>
+          <li><b>Key:</b> At the time of leaving the accommodation please <b style="color: red;">RETURN the key</b> to the office, if no one is there <b>leave the key inside the Postal Box</b> located in the main entrance of the Kouraku kaikan building.</li>
+        </ul>
+        <br>
+
+        <p id="Country-Hotel"><b>Country Hotel Niigata カントリーホテル新潟</b></p>
+        <p>Located in Downtown Niigata is five minutes by car from Niigata Station and 15 min by walk to Niigata University Asahimachi campus and Medical and dental Hospital</p>
+        <p>Just two minutes' walk from Niigata's finest shopping arcade! The perfect location for both business and leisure!</p>
+        <p>For shopping, the Mitsukoshi department store is nearby, and other locations like the Toki Messe, Niigata Prefectural Civic Center, and Furumachi Theater can be accessed. Great access to various event venues.</p>
+        <p>For more information on Country Hotel click <a href="http://www.niigata-c.jp/contents/english.php">here</a>.</p>
+        <p></p>
+        <br>
+
+        <p id="bus-Hospital"><b>Taking the bus to Niigata University Hospital. (Asahimachi campus)</b></p>
+        <br>
+        <ol>
+          <li>Walks towards to the Bandai side bus station</li>
+          <li>Get on any of the buses that departs from gate #5 or gate #6 (on how to buy the ticket see here)</li>
+          <li>If you arrive to <b>Country Hotel</b> first. </li>
+          <p>Get off at Honcho bus stop (in japanese: 本町), it takes about 1 min walk to the hotel. If not continue with the same bus. </p>
+          <li>For <b>Kouraku kaikan:</b></li>
+          <p>Get off at  <b>Niigata City Hall</b> bus stop (in japanese: Niigata shiyakusho mae / 新潟市役所前), it takes about 15 min.</p>
+          <li>Walk to the Niigata University Dental Faculty Entrance (about 2 min).</li>
+          <br>
+          <p><b>Fee for either stops is 210¥.</b></p>
+        </ol>
+        <br>
+
+        <!--minmax() in auto-fill repeating tracks Start https://gridbyexample.com/examples/example28/ -->
+        <div class="wrapper-02">
+          <div class="box-01 b">
+            <img src="img/Screenshot-map-01.png" alt="photo 1">
+            <div class="desc">From Niigata station to Country Hotel.</div>
+          </div>
+          <div class="box-01 c">
+            <img src="img/Screenshot-map-02.png" alt="photo 1">
+            <div class="desc">From Niigata station to Kouraku kaikan.</div>
+          </div>
+        </div>
+        <!--minmax() in auto-fill repeating tracks End  CSS included https://gridbyexample.com/examples/example28/ -->
+
+
+        <div class="box-01 a">
+          <img src="img/BusStation-03.jpg" alt="photo 1">
+          <div class="desc">1. Bus stop information, Gate 5 and 6.</div>
+        </div>
+
+        <!--minmax() in auto-fill repeating tracks Start https://gridbyexample.com/examples/example28/ -->
+        <div class="wrapper-02">
+          <div class="box-01 b">
+            <img src="img/BusStation-01.jpg" alt="photo 1">
+            <div class="desc">2. Bus Boarding area.</div>
+          </div>
+          <div class="box-01 c">
+            <img src="img/BusStation-02.jpg" alt="photo 1">
+            <div class="desc">3. Entrance to gates 5 and 6.</div>
+          </div>
+          <div class="box-01 d">
+            <img src="img/BusGate5.jpg" alt="photo 1">
+            <div class="desc">4. Gate #5 Buses # W20, W21, W22</div>
+          </div>
+          <div class="box-01 e">
+            <img src="img/BusGate6.jpg" alt="photo 1">
+            <div class="desc">5. Gate #6 Buses # W10, W11, W12. Also C30, C31 and C32</div>
+          </div>
+          <div class="box-01 f"></div>
+          <div class="box-01 g"></div>
+        </div>
+        <!--minmax() in auto-fill repeating tracks End  CSS included https://gridbyexample.com/examples/example28/ -->
+
+
+
+
+        <!--Section block Template for future refereses Starts here -->
+        <div id=""><h2></h2></div>
+        <br>
+        <p></p>
+        <br>
+      <hr>
+        <!--Section block Template for future refereses Ends here -->
+
+
+      <hr>
+
+
+
+    </div>
+  </div>
+  </div>
+</page3>
+
+
+
+
+
+<template-01>
+  <div class="Wrapper1">
+    <div class="grid1">
+      <div class="header" id="Title"> <h1>Title Here</h1></div>
+
+      <div class="sidebar">
+
+        <!-- Navbar Toggle button Start  from: https://getbootstrap.com/docs/4.0/components/navbar/-->
+          <button class="navbar-toggler navbar-light Marcelo-side-toggle-button" id="" type="button" data-toggle="collapse" data-target="#Page4" aria-controls="Marcelo-side-menu" aria-expanded="false" aria-label="Toggle navigation"> <!-- Navbar Toggle button "data-target" has to be the same name as side menu down to call and load. -->
+          <span class="navbar-toggler-icon"></span>
+          </button><!-- the class="Marcelo-side-toggle-button" is for calling css display:none; in large screens-->
+        <!-- Navbar Toggle button Ends -->
+
+        <div class="collapse-nav collapse Marcelo-side-menu" id="Page4"> <!-- class="Marcelo-side-menu" is nesseary for css display in large screens, id="Page1" is for the button to called an specific menu (cannot be a class)-->
+
+
+          <div class="sidebarmenuitem"><a href="index.html#Link-01">Link-01</a></div>
+          <hr>
+
+          <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
+          <div class="nav btn-info" data-toggle="collapse" data-target="#Example" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;"><a style="color: white;" href="index.html#Link-02">Link-02</a>&#x25BC;</div>
+            <div id="Example" class="collapse demo-collapse">
+              <ul style="text-decoration: none;">
+                <li><a href="index.html#Link-02-Sub01">Link-02-Sub01</a></li>
+                <li><a href="index.html#Link-02-Sub02">Link-02-Sub02</a></li>
+                <li><a href="index.html#Link-02-Sub03">Link-02-Sub03</a></li>
+              </ul>
+            </div>
+          <!-- Dropdown button End -->
+
+          <hr>
+
+          <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
+          <div class="nav btn-info" data-toggle="collapse" data-target="#x-02" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;"><a style="color: white;" href="index.html#Link-03">Link-03</a> &#x25BC;</div>
+            <div id="x-02" class="collapse demo-collapse">
+              <ul style="text-decoration: none;">
+                <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
+                <div class="nav btn-info" data-toggle="collapse" data-target="#x-03" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;"><a style="color: white;" href="index.html#Airport-Niigata">1. Link-03-Sub01</a>&#x25BC;</div>
+                  <div id="x-03" class="collapse demo-collapse">
+                    <ul style="text-decoration: none;">
+                      <li><a href="index.html#Link-03-Sub01-Sub01">Link-03-Sub01-Sub01</a></li>
+                      <li><a href="index.html#Link-03-Sub01-Sub02">Link-03-Sub01-Sub02</a></li>
+                      <li><a href="index.html#Link-03-Sub01-Sub03">Link-03-Sub01-Sub03</a></li>
+                    </ul>
+                  </div>
+                <!-- Dropdown button End -->
+
+                <div class="sidebarmenuitem"><a href="index.html#Link-03-Sub02">2. Link-03-Sub02</a></div>
+              </ul>
+            </div>
+          <!-- Dropdown button End -->
+          <hr>
+          <div class="sidebarmenuitem"><a href="index.html#Arrival">Example</a></div>
+
+          <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
+          <div class="nav btn-info" data-toggle="collapse" data-target="#x-05" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;">Example2 &#x25BC;</div>
+            <div id="x-05" class="collapse demo-collapse">
+              <ul style="text-decoration: none;">
+                <li><a href="index.html#">Submenu</a>
+                  <ul>
+                    <li><a href="index.html#">link1</a></li>
+                    <li><a href="index.html#">link2</a></li>
+                    <li><a href="index.html#">link3</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          <!-- Dropdown button End -->
+
+          <hr>
+          <div class="sidebarmenuitem"><a href="index.html#">Another example</a></div>
+          <hr>
+          <div class="sidebarmenuitem"><a href="index.html#Top">Top</a></div>
+        </div>
+       </div>
+
+      <div class="content">
+      <hr>
+        <div id="Link-01"><h2>Link-01</h2></div>
+        <br>
+        <p><b>Bla, bla, bla</b></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <br>
+      <hr>
+        <div id="Link-02"><h2>Link-02</h2></div>
+        <br>
+        <p id="Link-02-Sub01"><b>Link-02-Sub01</b></p>
+        <p>Lorem ipsum dolor sit amet,</p>
+        <p>For more information click <a href="https://www.japan-guide.com/e/e2361.html">here.</a></p>
+        <br>
+      <hr>
+        <div id="Link-02-Sub02"><p><b>Link-02-Sub02</b></p></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <br>
+      <hr>
+      <div id="Link-02-Sub03"><p><b>Link-02-Sub03</b></p></div>
+        <p>Lorem ipsum dolor sit amet,</p>
+        <br>
+      <hr>
+        <div id="Link-03"><h2>Link-03</h2></div>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <br>
+      <hr>
+        <div id="Link-03-Sub01"><h4>Link-03-Sub01</h4></div>
+        <br>
+        <p>Tokyo has two airports, Narita International Airport (成田空港, Narita Kūkō, NRT), which handles a large number of international flights as well as domestic and international flights by many low-budget airlines, and the more centrally located Haneda Airport (羽田　空港, Haneda Kūkō, HND), which handles the city's main share of domestic traffic and an increasing number of international flights.</p>
+        <br>
+      <hr>
+        <div id="Link-03-Sub01-Sub01"><p><b>Link-03-Sub01-Sub01</b></p></div>
+        <br>
+        <p>Narita Airport is connected with central Tokyo by multiple rail and bus lines. </p>
+        <ul>
+          <li>JR <a href="http://www.jreast.co.jp/e/nex/index.html?src=t_info" target="_blank">Narita Express:</a>The Narita Express or N'EX. Please check <a href="http://www.jreast.co.jp/e/nex/tickets.html" target="_blank">Ticket prices</a> and <a href=" http://www.eki-net.com/pc/jreast-shinkansen-reservation/english/wb/common/timetable/e_nex_u/index.html" target="_blank">Time Tables</a>. </li>
+          <li>JR Sobu Line</li>
+          <li>Keisei Skyliner</li>
+        </ul>
+      <hr>
+        <br>
+        <p>For a complete guide click <a href="https://www.japan-guide.com/e/e2027.html" target="_blank">here</a>. </p>
+        <br>
+      <hr>
+        <div id="Link-03-Sub01-Sub02"><p><b>Link-03-Sub01-Sub02</b></p></div>
+        <br>
+        <p>Haneda Airport is connected with central Tokyo by.</p>
+        <ul>
+          <li>Tokyo <a href="http://www.tokyo-monorail.co.jp/english/">Monorail</a></li>
+          <li>Keikyu Railways</li>
+          <li>Limousine bus</li>
+        </ul>
+        <br>
+
+        <!--Video Start Copy & Pasted from YouTube-->
+        <div class="videoWrapper">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mt9HDxBvCmE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <!--Video End Copy & Pasted from YouTube-->
+
+      <hr>
+      <div id="Link-03-Sub01-Sub03"><p><b>Link-03-Sub01-Sub03</b></p></div>
+        <br>
+        <p>Tokyo Station is one of the biggest and busiest station in the world. For the inexperienced traveler, commuting here can be challenging.</p>
+
+        <!-- PDF embed from assets Start-->
+          <embed src="assets/TokyoStation-Joetsu Train to Niigata.pdf#toolbar=0&navpanes=0" type="application/pdf" width="100%" height="700px" style=" display: block; margin-left: auto; margin-right: auto;" />
+        <!-- PDF embed from assets End-->
+
+        <!--Photo gallery Starts here taken from https://codepen.io/caraya/pen/NGoWKM?depth=everything&order=popularity&page=15&q=image+gallery+&show_forks=false-->
+        <div class="boxes">
+          <div class="box box1">
+            <img src="img/TYOtoNGT/TYOtoNGT-01.jpg" alt="" />
+            <p>1. Narita Express train</p>
+          </div>
+          <div class="box box1">
+            <img src="img/TYOtoNGT/TYOtoNGT-02.jpg" alt="" />
+            <p>2. The Narita Express arrives on Sobu Rapid track #1 from NRT.</p>
+          </div>
+          <div class="box box1">
+            <img src="img/TYOtoNGT/TYOtoNGT-03.jpg" alt="" />
+            <p>3. Take the escalator to the basement 4.</p>
+          </div>
+          <div class="box box1">
+            <img src="img/TYOtoNGT/TYOtoNGT-04.jpg" alt="" />
+            <p>4. Then another one to the basement 1.</p>
+          </div>
+          <div class="box box1">
+            <img src="img/TYOtoNGT/TYOtoNGT-05.jpg" alt="" />
+            <p>5. Walk to the escalator.</p>
+          </div>
+          <div class="box box1">
+            <img src="img/TYOtoNGT/TYOtoNGT-06.jpg" alt="" />
+            <p>6. Go up to the ground level.</p>
+          </div>
+        </div>
+        <!--Photo gallery Ends here -->
+        <hr>
+
+        <!-- Map Starts Copy & Pasted from google maps -->
+        <div class="videoWrapper">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d414680.9564174859!2d139.79461870244367!3d35.70912313667028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2sTokyo+Station%2C+1+Chome+Marunouchi%2C+Chiyoda%2C+Tokyo!3m2!1d35.6811673!2d139.7670516!4m5!1s0x5ff4c99ae88a6b01%3A0x3b1d928b98b9a3ea!2sNiigata+Station%2C+1+Chome+Hanazono%2C+Chuo%2C+Niigata%2C+Niigata+Prefecture!3m2!1d37.9120208!2d139.0618713!5e0!3m2!1sen!2sjp!4v1520355349682" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <!-- Map Ends Copy & Pasted from google maps -->
+      <hr>
+
+        <div id="Link-03-Sub02"><p><b>Link-03-Sub02</b></p></div>
+        <br>
+        <p>Niigata Airport is located in a very accessible and convenient location, only 25 minutes away from JR Niigata Station by limousine bus and 10 minutes away from the nearest highway interchange. Niigata Prefecture's transportation network is well-developed, and both people living in Niigata and people living in neighboring prefectures make use of Niigata Airport for business travel and for going on vacation.</p>
+        <p><b>Arrival Procedures</b></p>
+        <br>
+
+        <!--minmax() in auto-fill repeating tracks Start https://gridbyexample.com/examples/example28/ -->
+        <div class="wrapper-02">
+          <div class="box-01 a">
+            <img src="img/e1137-01.jpg" alt="photo 1">
+            <div class="desc">Map 1. Waiting area (red dot).</div>
+          </div>
+          <div class="box-01 b">
+            <img src="img/meeting-point-01.jpg" alt="photo 1">
+            <div class="desc">Meeting area.</div>
+          </div>
+          <div class="box-01 c">
+            <img src="img/meeting-point-02.jpg" alt="photo 1">
+            <div class="desc">Meeting point.</div>
+          </div>
+          <div class="box-01 d">
+            <img src="img/e1137-2.jpg" alt="photo 1">
+            <div class="desc">Map 2. Walk form the waiting to the Bandai side bus station.</div>
+          </div>
+          <div class="box-01 e"></div>
+          <div class="box-01 f"></div>
+        </div>
+        <!--minmax() in auto-fill repeating tracks End  CSS included https://gridbyexample.com/examples/example28/ -->
+
+        <!--Section block Template for future refereses Starts here -->
+        <div id=""><h2></h2></div>
+        <br>
+        <p></p>
+        <br>
+      <hr>
+        <!--Section block Template for future refereses Ends here -->
+      <hr>
+
+    </div>
+  </div>
+  </div>
+</template-01>
+
+
+<page5>
+  <div class="Wrapper1">
+    <div class="grid1">
+      <div class="header" id="Orientation"> <h1>Orientation</h1></div>
+
+      <div class="sidebar">
+
+        <!-- Navbar Toggle button Start  from: https://getbootstrap.com/docs/4.0/components/navbar/-->
+          <button class="navbar-toggler navbar-light Marcelo-side-toggle-button" id="" type="button" data-toggle="collapse" data-target="#Page5" aria-controls="Marcelo-side-menu" aria-expanded="false" aria-label="Toggle navigation"> <!-- Navbar Toggle button "data-target" has to be the same name as side menu down to call and load. -->
+          <span class="navbar-toggler-icon"></span>
+          </button><!-- the class="Marcelo-side-toggle-button" is for calling css display:none; in large screens-->
+        <!-- Navbar Toggle button Ends -->
+
+        <div class="collapse-nav collapse Marcelo-side-menu" id="Page5"> <!-- class="Marcelo-side-menu" is nesseary for css display in large screens, id="Page1" is for the button to called an specific menu (cannot be a class)-->
+
+
+          <div class="sidebarmenuitem"><a href="index.html#Assignments">Assignments</a></div>
+          <hr>
+
+          <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
+          <div class="nav btn-info" data-toggle="collapse" data-target="#Example" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;"><a style="color: white;" href="index.html#Link-02">Link-02</a>&#x25BC;</div>
+            <div id="Examplep5" class="collapse demo-collapse">
+              <ul style="text-decoration: none;">
+                <li><a href="index.html#Link-02-Sub01">Link-02-Sub01</a></li>
+                <li><a href="index.html#Link-02-Sub02">Link-02-Sub02</a></li>
+                <li><a href="index.html#Link-02-Sub03">Link-02-Sub03</a></li>
+              </ul>
+            </div>
+          <!-- Dropdown button End -->
+
+          <hr>
+
+          <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
+          <div class="nav btn-info" data-toggle="collapse" data-target="#x-02" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;"><a style="color: white;" href="index.html#Link-03">Link-03</a> &#x25BC;</div>
+            <div id="x-02p5" class="collapse demo-collapse">
+              <ul style="text-decoration: none;">
+                <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
+                <div class="nav btn-info" data-toggle="collapse" data-target="#x-03" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;"><a style="color: white;" href="index.html#Airport-Niigata">1. Link-03-Sub01</a>&#x25BC;</div>
+                  <div id="x-03p5" class="collapse demo-collapse">
+                    <ul style="text-decoration: none;">
+                      <li><a href="index.html#Link-03-Sub01-Sub01">Link-03-Sub01-Sub01</a></li>
+                      <li><a href="index.html#Link-03-Sub01-Sub02">Link-03-Sub01-Sub02</a></li>
+                      <li><a href="index.html#Link-03-Sub01-Sub03">Link-03-Sub01-Sub03</a></li>
+                    </ul>
+                  </div>
+                <!-- Dropdown button End -->
+
+                <div class="sidebarmenuitem"><a href="index.html#Link-03-Sub02">2. Link-03-Sub02</a></div>
+              </ul>
+            </div>
+          <!-- Dropdown button End -->
+          <hr>
+          <div class="sidebarmenuitem"><a href="index.html#Arrival">Example</a></div>
+
+          <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
+          <div class="nav btn-info" data-toggle="collapse" data-target="#x-05" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;">Example2 &#x25BC;</div>
+            <div id="x-05p5" class="collapse demo-collapse">
+              <ul style="text-decoration: none;">
+                <li><a href="index.html#">Submenu</a>
+                  <ul>
+                    <li><a href="index.html#">link1</a></li>
+                    <li><a href="index.html#">link2</a></li>
+                    <li><a href="index.html#">link3</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          <!-- Dropdown button End -->
+
+          <hr>
+          <div class="sidebarmenuitem"><a href="index.html#">Another example</a></div>
+          <hr>
+          <div class="sidebarmenuitem"><a href="index.html#Top">Top</a></div>
+        </div>
+       </div>
+
+      <div class="content">
+      <hr>
+        <div id="Assignments"><h2>Assignments</h2></div>
+        <br>
+        <p><b>Bla, bla, bla</b></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <br>
+      <hr>
+        <div id="Report"><h2>Word Report</h2></div>
+        <br>
+        <p id="Link-02-Sub01p5"><b>Link-02-Sub01</b></p>
+        <p>Lorem ipsum dolor sit amet,</p>
+        <p>For more information click <a href="https://www.japan-guide.com/e/e2361.html">here.</a></p>
+        <br>
+      <hr>
+        <div id="Link-02-Sub02p5"><p><b>Link-02-Sub02</b></p></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <br>
+      <hr>
+      <div id="Link-02-Sub03p5"><p><b>Link-02-Sub03</b></p></div>
+        <p>Lorem ipsum dolor sit amet,</p>
+        <br>
+      <hr>
+        <div id="Schedule"><h2>Schedule</h2></div>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <br>
+
+        <!--HTML table Start https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro-->
+        <table>
+          <tr>
+            <th>Period</th> <!--table header -->
+            <th>Country</th>
+            <th>University</th>
+            <th>Schedule</th>
+          </tr>
+          <tr>
+            <td>2018/03/3rd ~ 11th</td>
+            <td>Thailand</td>
+            <td>Thammasat University</td> <!--Link to the photogallery-->
+            <td><a href="assets/3月5日～3月9日：SS2017program _Thammasat U in Mar2018.htm" target="_blank">Available</a></td> <!--Save schedule xls file to web.htm and save in assets-->
+          </tr>
+          <tr>
+            <td>2018/03/11th ~ 20th</td>
+            <td>Canada</td>
+            <td><a href="" target="_blank">University of British Columbia</a></td> <!--Link to the photogallery-->
+            <td><a href="" target="_blank"> available </a>No</td> <!--Save schedule xls file to web.htm and save in assets-->
+          </tr>
+          <tr>
+            <td>2018/03/14th ~ 24th</td>
+            <td>Indonesia</td>
+            <td><a href="https://en.wikipedia.org/wiki/Airlangga_University" target="_blank">Airlangga University</a></td>
+            <td><a href="#">available </a>No</td>
+          </tr>
+          <tr>
+            <td>2018/03/19th ~ 30th</td>
+            <td>Thailand</td>
+            <td>Prince of Songkla University</td>
+            <td><a href="#" target="_blank">available </a>No</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+      </table>
+      <!--HTML table Ends https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro-->
+
+      <hr>
+        <div id="Link-03-Sub01p5"><h4>Link-03-Sub01</h4></div>
+        <br>
+        <p>Tokyo has two airports, Narita International Airport (成田空港, Narita Kūkō, NRT), which handles a large number of international flights as well as domestic and international flights by many low-budget airlines, and the more centrally located Haneda Airport (羽田　空港, Haneda Kūkō, HND), which handles the city's main share of domestic traffic and an increasing number of international flights.</p>
+        <br>
+      <hr>
+        <div id="Link-03-Sub01-Sub01p5"><p><b>Link-03-Sub01-Sub01</b></p></div>
+        <br>
+        <p>Narita Airport is connected with central Tokyo by multiple rail and bus lines. </p>
+        <ul>
+          <li>JR <a href="http://www.jreast.co.jp/e/nex/index.html?src=t_info" target="_blank">Narita Express:</a>The Narita Express or N'EX. Please check <a href="http://www.jreast.co.jp/e/nex/tickets.html" target="_blank">Ticket prices</a> and <a href=" http://www.eki-net.com/pc/jreast-shinkansen-reservation/english/wb/common/timetable/e_nex_u/index.html" target="_blank">Time Tables</a>. </li>
+          <li>JR Sobu Line</li>
+          <li>Keisei Skyliner</li>
+        </ul>
+      <hr>
+        <br>
+        <p>For a complete guide click <a href="https://www.japan-guide.com/e/e2027.html" target="_blank">here</a>. </p>
+        <br>
+      <hr>
+        <div id="Link-03-Sub01-Sub02p5"><p><b>Link-03-Sub01-Sub02</b></p></div>
+        <br>
+        <p>Haneda Airport is connected with central Tokyo by.</p>
+        <ul>
+          <li>Tokyo <a href="http://www.tokyo-monorail.co.jp/english/">Monorail</a></li>
+          <li>Keikyu Railways</li>
+          <li>Limousine bus</li>
+        </ul>
+        <br>
+
+        <!--Video Start Copy & Pasted from YouTube-->
+        <div class="videoWrapper">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mt9HDxBvCmE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <!--Video End Copy & Pasted from YouTube-->
+
+      <hr>
+      <div id="Link-03-Sub01-Sub03p5"><p><b>Link-03-Sub01-Sub03</b></p></div>
+        <br>
+        <p>Tokyo Station is one of the biggest and busiest station in the world. For the inexperienced traveler, commuting here can be challenging.</p>
+
+        <!-- PDF embed from assets Start-->
+          <embed src="assets/TokyoStation-Joetsu Train to Niigata.pdf#toolbar=0&navpanes=0" type="application/pdf" width="100%" height="700px" style=" display: block; margin-left: auto; margin-right: auto;" />
+        <!-- PDF embed from assets End-->
+
+        <!--Photo gallery Starts here taken from https://codepen.io/caraya/pen/NGoWKM?depth=everything&order=popularity&page=15&q=image+gallery+&show_forks=false-->
+        <div class="boxes">
+          <div class="box box1">
+            <img src="img/TYOtoNGT/TYOtoNGT-01.jpg" alt="" />
+            <p>1. Narita Express train</p>
+          </div>
+          <div class="box box1">
+            <img src="img/TYOtoNGT/TYOtoNGT-02.jpg" alt="" />
+            <p>2. The Narita Express arrives on Sobu Rapid track #1 from NRT.</p>
+          </div>
+          <div class="box box1">
+            <img src="img/TYOtoNGT/TYOtoNGT-03.jpg" alt="" />
+            <p>3. Take the escalator to the basement 4.</p>
+          </div>
+          <div class="box box1">
+            <img src="img/TYOtoNGT/TYOtoNGT-04.jpg" alt="" />
+            <p>4. Then another one to the basement 1.</p>
+          </div>
+          <div class="box box1">
+            <img src="img/TYOtoNGT/TYOtoNGT-05.jpg" alt="" />
+            <p>5. Walk to the escalator.</p>
+          </div>
+          <div class="box box1">
+            <img src="img/TYOtoNGT/TYOtoNGT-06.jpg" alt="" />
+            <p>6. Go up to the ground level.</p>
+          </div>
+        </div>
+        <!--Photo gallery Ends here -->
+        <hr>
+
+        <!-- Map Starts Copy & Pasted from google maps -->
+        <div class="videoWrapper">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d414680.9564174859!2d139.79461870244367!3d35.70912313667028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2sTokyo+Station%2C+1+Chome+Marunouchi%2C+Chiyoda%2C+Tokyo!3m2!1d35.6811673!2d139.7670516!4m5!1s0x5ff4c99ae88a6b01%3A0x3b1d928b98b9a3ea!2sNiigata+Station%2C+1+Chome+Hanazono%2C+Chuo%2C+Niigata%2C+Niigata+Prefecture!3m2!1d37.9120208!2d139.0618713!5e0!3m2!1sen!2sjp!4v1520355349682" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <!-- Map Ends Copy & Pasted from google maps -->
+      <hr>
+
+        <div id="Link-03-Sub02p5"><p><b>Link-03-Sub02</b></p></div>
+        <br>
+        <p>Niigata Airport is located in a very accessible and convenient location, only 25 minutes away from JR Niigata Station by limousine bus and 10 minutes away from the nearest highway interchange. Niigata Prefecture's transportation network is well-developed, and both people living in Niigata and people living in neighboring prefectures make use of Niigata Airport for business travel and for going on vacation.</p>
+        <p><b>Arrival Procedures</b></p>
+        <br>
+
+        <!--minmax() in auto-fill repeating tracks Start https://gridbyexample.com/examples/example28/ -->
+        <div class="wrapper-02">
+          <div class="box-01 a">
+            <img src="img/e1137-01.jpg" alt="photo 1">
+            <div class="desc">Map 1. Waiting area (red dot).</div>
+          </div>
+          <div class="box-01 b">
+            <img src="img/meeting-point-01.jpg" alt="photo 1">
+            <div class="desc">Meeting area.</div>
+          </div>
+          <div class="box-01 c">
+            <img src="img/meeting-point-02.jpg" alt="photo 1">
+            <div class="desc">Meeting point.</div>
+          </div>
+          <div class="box-01 d">
+            <img src="img/e1137-2.jpg" alt="photo 1">
+            <div class="desc">Map 2. Walk form the waiting to the Bandai side bus station.</div>
+          </div>
+          <div class="box-01 e"></div>
+          <div class="box-01 f"></div>
+        </div>
+        <!--minmax() in auto-fill repeating tracks End  CSS included https://gridbyexample.com/examples/example28/ -->
+
+        <!--Section block Template for future refereses Starts here -->
+        <div id=""><h2></h2></div>
+        <br>
+        <p></p>
+        <br>
+      <hr>
+        <!--Section block Template for future refereses Ends here -->
+      <hr>
+
+    </div>
+  </div>
+  </div>
+</page5>
+
+
+
+<pagetry>
+  <div class="Wrapper1">
+    <div class="grid1">
+      <div class="header" id="Pre-arrivalX"> <h1>Pre-arrival Logistics</h1></div>
+
+      <div class="sidebar">
+
+      <!-- Navbar Toggle button Start
+        <button class="navbar-toggler navbar-light" id="Toggle-button" type="button" data-toggle="collapse" data-target="#Toggle-side-menu" aria-controls="Toggle-side-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        Navbar Toggle button Ends -->
+
+      <!-- Navbar Toggle-->
+        <nav class="navbar navbar-light" id="collapse-nav">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Toggle-side-menu" aria-controls="Toggle-side-menu" aria-expanded="true" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+        <!--Navbar Toggle button Ends -->
+
+        <div class="collapse-nav collapse" id="Toggle-side-menu">
+          <div class="sidebarmenuitem"><a href="index.html#Pre-arrivalX">About the Visa</a></div>
+          <hr>
+          <div class="sidebarmenuitem"><a href="index.html#Travel-Insurance">Travel Insurance</a></div>
+          <hr>
+          <!-- Dropdown menu Starts !Taken form the main nav at the top.-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="index.html#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white; text-decoration: none;">
+              Pre-arrival Logistics
+            </a>
+            <div id="this-collapse">
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="index.html#Pre-arrival-Logistics">Visa</a>
+                <a class="dropdown-item" href="index.html#Travel-Insurance">Travel Insurance</a>
+                <a class="dropdown-item" href="index.html#Packing-advice">Packing advice</a>
+                <a class="dropdown-item" href="index.html#Wear-and-Dress">Wear & Dress code</a>
+                <a class="dropdown-item" href="index.html#Weather">Weather</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="index.html#Miscellaneous">Miscellaneous</a>
+              </div>
+            </div>
+          </li>
+          <!-- Dropdown menu End -->
+
+          <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
+          <div class="nav btn-info" data-toggle="collapse" data-target="#demo" style="background-color: #008555;">Simple collapsible &#x25BC;</div>
+            <div id="demo" class="collapse">
+              <ul>
+                <li><a href="">JR Pass</a></li>
+                <li><a href="">IC Cards</a></li>
+                <li><a href="">Train tickets</a></li>
+                <li><a href="">Bus tickets</a></li>
+              </ul>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+          <!-- Dropdown button End -->
+
+          <div class="sidebarmenuitem"><a href="index.html#Packing-advice">Packing advice</a></div>
+          <hr>
+          <div class="sidebarmenuitem"><a href="index.html#Wear-and-Dress">Wear & Dress code</a></div>
+          <div class="collapse-nav collapse Marcelo-side-menu" id="PageX"> <!-- class="Marcelo-side-menu" is nesseary for css display in large screens, id="Page1" is for the button to called an specific menu (cannot be a class)-->
+
+
+            <div class="sidebarmenuitem"><a href="index.html#Arrival">Commute</a></div>
+            <hr>
+            <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
+            <div class="nav btn-info" data-toggle="collapse" data-target="#demo-x1" style="background-color: rgba(0, 133, 85, 0); cursor: context-menu;">Tickets and Passes &#x25BC;</div>
+              <div id="demo-x1" class="collapse demo-collapse">
+                <ul style="text-decoration: none;">
+                  <li><a href="JR-Pass">JR Pass</a></li>
+                  <li><a href="">IC Cards</a></li>
+                  <li><a href="">Train tickets</a></li>
+                  <li><a href="">Bus tickets</a></li>
+                </ul>
+              </div>
+            <!-- Dropdown button End -->
+            <hr>
+            <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
+            <div class="nav btn-info" data-toggle="collapse" data-target="#demo-x20" style="background-color: rgba(#008555, 0);">Highway Buses &#x25BC;</div>
+              <div id="demo-x20" class="collapse demo-collapse">
+                <ul style="text-decoration: none;">
+                  <li><a href="">Willer Express</a></li>
+                  <li><a href="">JR Bus</a></li>
+                  <li><a href="">Japan Bus</a></li>
+                  <li><a href="">Queue lines</a></li>
+                </ul>
+              </div>
+            <!-- Dropdown button End -->
+            <hr>
+            <!-- Dropdown button Start https://www.w3schools.com/bootstrap/bootstrap_collapse.asp, examp https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h; arrow https://stackoverflow.com/questions/31531865/css-change-dropdown-arrow-to-unicode-triangle;-->
+            <div class="nav btn-info" data-toggle="collapse" data-target="#demo-x3" style="background-color: #008555;">Getting to Niigata &#x25BC;</div>
+              <div id="demo-x3" class="collapse demo-collapse">
+                <ul style="text-decoration: none;">
+                  <li><a href="">From the Airport to Niigata</a>
+                    <ul>
+                      <li><a href="">From Narita Airport</a></li>
+                      <li><a href="">From Haneda Airport</a></li>
+                      <li><a href="">From Tokyo Station to Niigata Station</a></li>
+                      <li><a href="">Transfer Narita Express to Joetsu Shinkansen</a></li>
+                      <li><a href="">From Niigata Airport to Niigata Station</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="">From Niigata Station to University Hospital</a></li>
+                  <li><a href="">Accommodations</a></li>
+                    <ul>
+                      <li><a href="">Kouraku kaikan guesthouse 康楽会館</a></li>
+                      <li><a href="">Country Hotel Niigataカントリーホテル新潟</a></li>
+                    </ul>
+                  <li><a href="">Taking the bus to Asahimachi campus</a></li>
+                </ul>
+              </div>
+            <!-- Dropdown button End -->
+            <hr>
+            <div class="sidebarmenuitem"><a href="index.html#"></a></div>
+            <hr>
+          </div>
+         </div>
+
+        </div>
+
+        <div class="content">
+          <div id=""><h2>About the Visa</h2></div>
+          <br>
+          <p>As of July 2017, Japan has taken measures concerning the Visa Exemption Arrangements with 68 countries and regions.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+
+          <hr>
+
+
+        <hr>
+        <!--Layout columns Start https://getbootstrap.com/docs/4.0/layout/grid/-->
+          <div class="container" id="Layout-columns">
+            <div class="row">
+              <div class="col">Column 1
+                <img src="img/Flag-Bolivia.jpg" alt="photo 1">
+                <div class="desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+              </div>
+              <div class="col">Column 2
+                <img src="img/Flag-Bolivia.jpg" alt="photo 1">
+                <div class="desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+              </div>
+
+              <div class="w-100"></div>
+
+              <div class="col">Column 3
+                <img src="img/Flag-Bolivia.jpg" alt="photo 1">
+                <div class="desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+              </div>
+              <div class="col">Column 4
+                <img src="img/Flag-Bolivia.jpg" alt="photo 1">
+                <div class="desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+              </div>
+            </div>
+          </div>
+          <!--Layout columns original code, no need of the container https://getbootstrap.com/docs/4.0/layout/grid/-->
+          <div class="container">
+            <div class="row">
+              <div class="col">Column</div>
+              <div class="col">Column</div>
+              <div class="w-100"></div>
+              <div class="col">Column</div>
+              <div class="col">Column</div>
+            </div>
+          </div>
+        <!--Layout columns End https://getbootstrap.com/docs/4.0/layout/grid/-->
+
+
+        <hr>
+        <!--minmax() in auto-fill repeating tracks Start https://gridbyexample.com/examples/example28/ -->
+        <div class="wrapper-02">
+        <div class="box-01 a">
+          <img src="img/Flag-Bolivia.jpg" alt="photo 1">
+          <div class="desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, </div>
+        </div>
+        <div class="box-01 b">B</div>
+        <div class="box-01 c">C</div>
+        <div class="box-01 d">D</div>
+        <div class="box-01 e">E</div>
+        <div class="box-01 f">F</div>
+        <div class="box-01 g">G</div>
+        <div class="box-01 h">H</div>
+        <div class="box-01 i">I</div>
+        </div>
+        <!--minmax() in auto-fill repeating tracks End  CSS included https://gridbyexample.com/examples/example28/ -->
+
+
+      </div><!--/*End content*/-->
+    </div><!--/*End grid1*/-->
+  </div> <!--/*End Wrapper1*/-->
+</pagetry>
+<!-- -->
+
+
+
+
+
+          <label for=""></label>
+          <p></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p id="page-top" style="bottom: 10px;"><a href="#Top">BACK TO TOP</a></p>
+
+</div>
+
+<footer>
+  <div class="container-fluid" id="footer_logo">
+    <a href="https://www.niigata-u.ac.jp/en/" target="_blank">
+      <img src="img/logo-english-footer-white.svg" alt="logo">
+    </a>
+    <p id="Copy-right">© Niigata University</p>
+  </div>
+</footer>
+
+
+
+
+<!-- This scripts are nesseary for the dropdown-menu to work properly -->
+    <!-- JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>
